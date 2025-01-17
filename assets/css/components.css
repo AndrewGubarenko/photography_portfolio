@@ -673,6 +673,7 @@ Ready Components Stylesheet
 
 .wptb-item-layer {
     position: absolute;
+    width: 100%;
     z-index: -1;
 }
 
@@ -2094,6 +2095,26 @@ Ready Components Stylesheet
     height: 100vh;
 }
 
+.bg-video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
 .wptb-slider .localvideo-bg video {
     position: absolute;
     left: 0;
@@ -2102,7 +2123,7 @@ Ready Components Stylesheet
     bottom: 0;
     width: auto;
     height: auto;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
 }
 
