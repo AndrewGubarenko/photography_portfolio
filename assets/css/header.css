@@ -159,7 +159,6 @@
   position: relative;
   border: 0;
   list-style: none;
-  line-height: 1;
   display: inline-block;
   font-size: 14px;
   font-weight: var(--fw-normal);
@@ -1083,15 +1082,15 @@ body.overlay_menu_active .wptb-overlay-contact {
   transform: perspective(300px) rotateX(0deg);
   transform-origin: top;
   position: fixed !important;
-  background-color: rgba(var(--color-black-rgb), 0.8);
+  background: rgba(var(--color-black-rgb), 0.8);
 }
 
 .header.sticky .header-top {
-	max-height: 0px;
+	max-height: 0;
 	opacity: 0;
-  visibility: hidden;
+    visibility: hidden;
 	overflow: hidden;
-	padding: 0px;
+	padding: 0;
 	transition: all 0.3s ease-in-out;
 }
 

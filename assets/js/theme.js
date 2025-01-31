@@ -120,7 +120,7 @@ Description: Kimono - Photography Agency
         });
 
         // Sticky Header
-        var header = $("header");
+        /*var header = $("header");
         $(window).scroll(function() {
             var scroll = $(window).scrollTop();
 
@@ -129,7 +129,7 @@ Description: Kimono - Photography Agency
             } else {
                 header.removeClass("sticky");
             }
-        });
+        });*/
 
 
         // WOW Init
