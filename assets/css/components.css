@@ -6629,3 +6629,23 @@ svg.radial-progress {
     background-color: var(--color-one);
     color: var(--color-white);
 }
+
+/* Custom */
+
+.empty-progressbar {
+    min-height: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+    .margin-top-50 {
+        margin-top: clamp(0px, 10vw, 350px);
+    }
+}
+
+.main-screen-empty-space {
+    margin-top: clamp(360px, 10vw, 3600px);
+}
+
+
+
+
