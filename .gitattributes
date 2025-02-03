@@ -1,3 +1,0 @@
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-assets/img/projects/video/main_small.mp4 -filter -diff -merge
-assets/img/projects/video/main_full.mp4 -filter -diff -merge
