@@ -1615,3 +1615,8 @@ body.theme-style--olive {
     height: 400px;
 }
 
+.why-choose-us-description {
+    font-weight: var(--fw-light);
+    font-size: 16px;
+}
+
