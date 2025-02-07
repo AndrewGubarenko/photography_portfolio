@@ -6638,7 +6638,7 @@ svg.radial-progress {
 
 @media screen and (min-width: 1200px) {
     .margin-top-50 {
-        margin-top: clamp(0px, 10vw, 350px);
+        margin-top: clamp(0px, 5vw, 350px);
     }
 }
 
