@@ -102,7 +102,6 @@ Ready Components Stylesheet
 /* Section Heading - Two*/
 .wptb-heading-two {
     position: relative;
-    margin-bottom: 50px;
     z-index: -2;
 }
 .wptb-heading-two .wptb-item--subtitle {
@@ -152,10 +151,14 @@ Ready Components Stylesheet
     font-size: var(--fs-18);
     font-weight: var(--fw-light);
     line-height: var(--fs-28);
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     display: inline-block;
     transition: var(--transition-base);
+}
+.wptb-item--description-p {
+    font-size: var(--fs-14);
+    text-align: left;
 }
 .wptb-heading-two .wptb-item--description span {
     color: var(--color-white);
@@ -3408,6 +3411,7 @@ Ready Components Stylesheet
 .wptb-list1 .wptb--item {
     display: flex;
     flex-wrap: nowrap;
+    min-height: 57px;
 }
 .wptb-list1 .wptb--item  + .wptb--item {
     margin-top: 13px;
@@ -6633,7 +6637,7 @@ svg.radial-progress {
 /* Custom */
 
 .empty-progressbar {
-    min-height: 50px;
+    min-height: 10px;
 }
 
 @media screen and (min-width: 1200px) {
