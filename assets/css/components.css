@@ -48,8 +48,8 @@ Ready Components Stylesheet
     font-size: var(--fs-18);
     font-weight: var(--fw-light);
     line-height: var(--fs-28);
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     display: inline-block;
     transition: var(--transition-base);
 }
@@ -102,6 +102,7 @@ Ready Components Stylesheet
 /* Section Heading - Two*/
 .wptb-heading-two {
     position: relative;
+    margin-bottom: 50px;
     z-index: -2;
 }
 .wptb-heading-two .wptb-item--subtitle {
@@ -134,7 +135,7 @@ Ready Components Stylesheet
     font-size: var(--fs-60);
     font-weight: var(--fw-semibold);
     line-height: var(--fs-74);
-    letter-spacing: 0px;
+    letter-spacing: 0;
     margin-top: 10px;
     margin-bottom: 15px;
     transition: var(--transition-base);
@@ -282,11 +283,11 @@ Ready Components Stylesheet
 /* Page Heading */
 .wptb-page-heading {
     position: relative;
-    padding: 100px 100px 0px 100px;
+    padding: 100px 100px 0 100px;
 }
 .wptb-page-heading .wptb-item--inner {
     position: relative;
-    padding: 220px 0px 220px 0px;
+    padding: 220px 0 220px 0;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,7 +316,7 @@ Ready Components Stylesheet
     font-size: 50px;
     font-weight: var(--fw-medium);
     line-height: 60px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .wptb-page-heading .wptb-item--title::before,
 .wptb-page-heading .wptb-item--title::after {
@@ -341,7 +342,7 @@ Ready Components Stylesheet
     line-height: 30px;
     width: 100%;
     margin: 25px 0 0;
-    padding: 0px;
+    padding: 0;
     list-style: none;
     text-transform: uppercase;
     display: inline-flex;
@@ -372,16 +373,16 @@ Ready Components Stylesheet
 }
 @media screen and (max-width: 1400px) {
     .wptb-page-heading {
-        padding: 100px 30px 0px 30px;
+        padding: 100px 30px 0 30px;
     }    
 }
 
 @media screen and (max-width: 1199px) {
     .wptb-page-heading {
-        padding: 100px 15px 0px 15px;
+        padding: 100px 15px 0 15px;
     }    
     .wptb-page-heading .wptb-item--inner {
-        padding: 100px 0px 100px 0px;
+        padding: 100px 0 100px 0;
     }
     .wptb-page-heading .wptb-item--title::before, 
     .wptb-page-heading .wptb-item--title::after {
@@ -391,7 +392,7 @@ Ready Components Stylesheet
 
 @media screen and (max-width: 991px) {    
     .wptb-page-heading .wptb-item--inner {
-        padding: 80px 0px 80px 0px;
+        padding: 80px 0 80px 0;
     }
     .wptb-page-heading .wptb-item--title {
         font-size: 40px;
@@ -452,7 +453,7 @@ Ready Components Stylesheet
     background-color: transparent;
     /* border: 1px dashed var(--color-dark-seven); */
     border-radius: 100%;
-    margin-top: 0px;
+    margin-top: 0;
     transition: var(--transition-base);
 }
 .wptb-swiper-navigation.style1 .wptb-swiper-arrow::before {
@@ -506,9 +507,9 @@ Ready Components Stylesheet
     color: var(--color-white);
     background-color: transparent;
     font-size: 60px;
-    border: 0px dashed var(--color-dark-seven);
+    border: 0 dashed var(--color-dark-seven);
     border-radius: 100%;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .wptb-swiper-navigation.style2 .wptb-swiper-arrow:after {
@@ -544,9 +545,9 @@ Ready Components Stylesheet
     height: 60px;
     color: var(--color-white);
     background-color: transparent;
-    border: 0px dashed var(--color-dark-seven);
+    border: 0 dashed var(--color-dark-seven);
     border-radius: 100%;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .wptb-swiper-navigation.style3 .wptb-swiper-arrow:after {
@@ -568,7 +569,7 @@ Ready Components Stylesheet
     position: relative;
 	top: 0;
 	bottom: auto;
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, 
@@ -645,7 +646,7 @@ Ready Components Stylesheet
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin: 0px 0px;
+    margin: 0 0;
     cursor: pointer;
 	transition: var(--transition-base);
     position: relative;
@@ -702,7 +703,7 @@ Ready Components Stylesheet
     height: 100%;
 }
 .wptb-slider .wptb-heading {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 /* Slider Left Pane */
@@ -713,7 +714,7 @@ Ready Components Stylesheet
     bottom: 0;
     left: 0;
     z-index: 11;
-    padding: 70px 0px 100px 0px;
+    padding: 70px 0 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -875,7 +876,7 @@ Ready Components Stylesheet
 /* Slider Style One */
 .wptb-slider.style1 {
     background-color: var(--color-dark-three);
-    padding: 0px 100px 100px 0px;
+    padding: 0 100px 100px 0;
 }
 .wptb-slider.style1 .wptb-slider--item {
 	height: calc(100vh - 100px);
@@ -911,8 +912,8 @@ Ready Components Stylesheet
     line-height: 11.296vh;
     font-weight: var(--fw-bold);
     text-transform: uppercase;
-    margin: 0px;
-    letter-spacing: 0px;
+    margin: 0;
+    letter-spacing: 0;
 }
 .wptb-slider.style1 .wptb-heading .wptb-item--title span {
     font-size: 9.444vh;
@@ -932,13 +933,13 @@ Ready Components Stylesheet
     bottom: -4.083vw;
 }
 .wptb-slider.style1 .wptb-item-layer-one {
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     z-index: 1;
 }
 .wptb-slider.style1 .wptb-item-layer-two {
-    right: 0px;
-    bottom: 0px;
+    right: 0;
+    bottom: 0;
     z-index: 1;
 }
 
@@ -972,7 +973,7 @@ Ready Components Stylesheet
 
 /* Slider Style Two */
 .wptb-slider.style2 {
-    padding: 0px 0px;
+    padding: 0 0;
     height: 100vh;
     overflow: hidden;
 }
@@ -1107,7 +1108,7 @@ Ready Components Stylesheet
 
 /* Slider Style Three */
 .wptb-slider.style3 {
-    padding: 0px 0px;
+    padding: 0 0;
     overflow: hidden;
 }
 .wptb-slider.style3 .wptb-slider--item {
@@ -1141,7 +1142,7 @@ Ready Components Stylesheet
     font-size: 22px;
     font-weight: var(--fw-light);
     line-height: 34px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0 20px 0;
     color: var(--color-two-fixed);
 }
 
@@ -1169,7 +1170,7 @@ Ready Components Stylesheet
 
 /* Slider Style Four */
 .wptb-slider.style4 {
-    padding: 200px 0px 0px 0px;
+    padding: 200px 0 0 0;
 }
 .wptb-slider.style4 .swiper-container {
     padding-top: 50px;
@@ -1179,7 +1180,7 @@ Ready Components Stylesheet
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0px;
+    bottom: 0;
     height: 200px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
     z-index: 2;
@@ -1240,7 +1241,7 @@ Ready Components Stylesheet
 
 /* Slider Style Five */
 .wptb-slider.style5 {
-    padding: 0px 35px;
+    padding: 0 35px;
     overflow: hidden;
 }
 .wptb-slider.style5 .wptb-slider--item {
@@ -1275,7 +1276,7 @@ Ready Components Stylesheet
     font-size: 22px;
     font-weight: var(--fw-light);
     line-height: 34px;
-    margin: 20px 0px 30px 0px;
+    margin: 20px 0 30px 0;
     color: var(--color-two-fixed);
 }
 
@@ -1326,7 +1327,7 @@ Ready Components Stylesheet
 
 /* Slider Style Six */
 .wptb-slider.style6 {
-    padding: 0px 100px 100px;
+    padding: 0 100px 100px;
 }
 .wptb-slider.style6 .wptb-slider--item {
     display: flex;
@@ -1416,7 +1417,7 @@ Ready Components Stylesheet
     content: '';
     position: absolute;
     top: 49%;
-    width: 0px;
+    width: 0;
     height: 1px;
     background-color: rgba(var(--color-white-fixed-rgb), 0.3);
     /* opacity: 0; */
@@ -1455,7 +1456,7 @@ Ready Components Stylesheet
     padding-bottom: 100px;
 }
 .wptb-slider.style8 .wptb-slider--item {
-    padding: 0px 40px 80px 40px;
+    padding: 0 40px 80px 40px;
 }
 .wptb-slider.style8 .wptb-slider--image {
     position: relative;
@@ -1465,7 +1466,7 @@ Ready Components Stylesheet
     transform: scale(1);
 }
 .wptb-slider.style8 .swiper-slide.swiper-slide-active .wptb-slider--image {
-    box-shadow: 0px 25px 30px 15px rgb(0, 0, 0, 0.35);
+    box-shadow: 0 25px 30px 15px rgb(0, 0, 0, 0.35);
 }
 .wptb-slider.style8 .wptb-slider--image img {
     width: 100%;
@@ -1511,15 +1512,15 @@ Ready Components Stylesheet
     bottom: 150px;
     left: 0;
     right: 0;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 /* Slider Style Nine */
 .wptb-slider.style9 {
-    padding: 0px 100px 100px;
+    padding: 0 100px 100px;
 }
 .wptb-slider.style9 .swiper-container {
-    padding: 140px 0px 40px;
+    padding: 140px 0 40px;
 }
 .wptb-slider.style9 .wptb-item-layer {
     left: 0;
@@ -1535,7 +1536,7 @@ Ready Components Stylesheet
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 280px);
-    padding: 0px 60px 50px 60px;
+    padding: 0 60px 50px 60px;
     display: flex;
     align-items: end;
     transition: var(--transition-base);
@@ -1557,7 +1558,7 @@ Ready Components Stylesheet
 .wptb-slider.style9 .wptb-heading .wptb-item--title {
     font-size: 30px;
     line-height: 40px;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 5px;
     color: var(--color-white-fixed);
 }
@@ -1567,7 +1568,7 @@ Ready Components Stylesheet
 
 /* Slider Style Ten */
 .wptb-slider.style10 {
-    padding: 100px 0px 60px 0px;
+    padding: 100px 0 60px 0;
     height: 100vh;
 }
 .wptb-slider.style10 .wptb-swiper-slider-ten {
@@ -1665,7 +1666,7 @@ Ready Components Stylesheet
 
 /* Slider Style Twelve */
 .wptb-slider.style12 {
-    padding: 0px 0px 100px;
+    padding: 0 0 100px;
 }
 .wptb-slider.style12 .wptb-slider--item {
     height: calc(100vh - 200px);
@@ -1688,13 +1689,13 @@ Ready Components Stylesheet
     transform: none;
 }
 .wptb-slider.style12 .wptb-bottom-pane {
-    padding: 0px 100px;
+    padding: 0 100px;
 }
 
 
 /* Slider Style Thirteen */
 .wptb-slider.style13 {
-    padding: 100px 0px 0px 0px;
+    padding: 100px 0 0 0;
     height: 100vh;
 }
 .wptb-slider.style13 .wptb-swiper-slider-thirteen {
@@ -1726,7 +1727,7 @@ Ready Components Stylesheet
 
 /* Slider Style Fourteen */
 .wptb-slider.style14 {
-    padding: 0px 100px 100px;
+    padding: 0 100px 100px;
 }
 .wptb-slider.style14 .wptb-slider--item {
     display: flex;
@@ -1765,7 +1766,7 @@ Ready Components Stylesheet
 
 /* Slider Style Fifteen */
 .wptb-slider.style15 {
-    padding: 200px 0px 0px 0px;
+    padding: 200px 0 0 0;
 }
 .wptb-slider.style15 .swiper-container {
     padding-top: 50px;
@@ -1824,7 +1825,7 @@ Ready Components Stylesheet
 
 /* Slider Style Sixteen */
 .wptb-slider.style16 {
-    padding: 0px 100px 250px;
+    padding: 0 100px 250px;
     background-color: var(--color-dark-fourteen);
 }
 .wptb-slider.style16 .wptb-bottom-pane {
@@ -1835,7 +1836,7 @@ Ready Components Stylesheet
     align-items: center;
     justify-content: end;
     /* height: calc(100vh - 200px); */
-    padding: 90px 0px 100px 0px;
+    padding: 90px 0 100px 0;
     margin-top: 190px;
     background-position: center;
     background-size: cover;
@@ -1931,12 +1932,12 @@ Ready Components Stylesheet
     line-height: 1.375rem;
     text-transform: uppercase;
     color: var(--color-one);
-    margin-bottom: 0px;
+    margin-bottom: 0;
     transition-delay: 0.9s;
 }
 .wptb-slider.style16 .wptb-item--button .btn {
     background-color: transparent;
-    padding: 0px;
+    padding: 0;
     color: var(--color-white-fixed);
 }
 .wptb-slider.style16 .wptb-item--button .btn .btn-wrap {
@@ -2000,7 +2001,7 @@ Ready Components Stylesheet
 
 /* Slider Style Seventeen */
 .wptb-slider.style17 {
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
     height: 100vh;
 }
 .wptb-slider.style17 .wptb-swiper-slider-seventeen {
@@ -2185,7 +2186,7 @@ Ready Components Stylesheet
 
 /* Slider 21 (Youtube Video) */
 .wptb-slider.style21 {
-    padding: 0px 100px 100px;
+    padding: 0 100px 100px;
 }
 .wptb-slider.style21 .wptb-slider--item {
     display: flex;
@@ -2300,7 +2301,7 @@ Ready Components Stylesheet
         padding: 60px 55px 60px 55px;
     }
     .wptb-slider.style12 .wptb-bottom-pane {
-        padding: 0px 50px;
+        padding: 0 50px;
     }
 
     .wptb-slider.style15 .wptb-item-layer-two {
@@ -2336,7 +2337,7 @@ Ready Components Stylesheet
 
 @media screen and (max-width: 991px) {
     .wptb-slider.style1 {
-        padding: 0px 50px 0px 0px;
+        padding: 0 50px 0 0;
     }
     .wptb-slider.style1 .wptb-slider--image {
         max-width: 100vw;
@@ -2363,14 +2364,14 @@ Ready Components Stylesheet
         padding: 100px 50px;
     }
     .wptb-slider.style9 {
-        padding: 0px 50px 100px;
+        padding: 0 50px 100px;
     }
     .wptb-slider.style9 .wptb-slider--item {
-        padding: 0px 30px 30px 30px;
+        padding: 0 30px 30px 30px;
     }
     .wptb-slider.style6,
     .wptb-slider.style14 {
-        padding: 0px 50px 100px;
+        padding: 0 50px 100px;
     }
     .wptb-slider.style11 {
         padding: 30px 50px;
@@ -2477,7 +2478,7 @@ Ready Components Stylesheet
     transform-origin: center;
 }
 .wptb-icon-box1 .wptb-item--title {
-    margin: 0px 0px;
+    margin: 0 0;
 }
 
 .wptb-icon-box1 .wptb-item--description {
@@ -2486,7 +2487,7 @@ Ready Components Stylesheet
     font-weight: var(--fw-light);
     line-height: 34px;
     letter-spacing: -1px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     word-break: break-word;
 }
 
@@ -2542,7 +2543,7 @@ Ready Components Stylesheet
     transform-origin: center;
 }
 .wptb-icon-box1.style2 .wptb-item--title {
-    margin: 0px 0px;
+    margin: 0 0;
 }
 
 .wptb-icon-box1.style2 .wptb-item--description {
@@ -2551,8 +2552,8 @@ Ready Components Stylesheet
     font-style: normal;
     font-weight: var(--fw-normal);
     line-height: 24px;
-    letter-spacing: 0px;
-    margin-bottom: 0px;
+    letter-spacing: 0;
+    margin-bottom: 0;
     word-break: break-word;
 }
 
@@ -2608,7 +2609,7 @@ Ready Components Stylesheet
 /* Iconbox 2 - Style Two */
 .wptb-icon-box2.style2 {
     background-color: transparent;
-    padding: 0px;
+    padding: 0;
 }
 .wptb-icon-box2.style2 + .wptb-icon-box2.style2 {
     margin-top: 60px;
@@ -2624,7 +2625,7 @@ Ready Components Stylesheet
     background-color: transparent;
     border-bottom: 6px solid transparent;
     padding: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .wptb-icon-box2.style3.active,
 .wptb-icon-box2.style3:hover {
@@ -2643,10 +2644,10 @@ Ready Components Stylesheet
     flex-wrap: nowrap;
     align-items: center;
     background-color: var(--color-dark-three);
-    padding: 45px 30px 45px 0px;
+    padding: 45px 30px 45px 0;
     border-radius: 10px;
-    -webkit-box-shadow: 0 0px 20px rgba(var(--color-one-rgb), 0.05);
-    box-shadow: 0 0px 20px rgba(var(--color-one-rgb), 0.05);
+    -webkit-box-shadow: 0 0 20px rgba(var(--color-one-rgb), 0.05);
+    box-shadow: 0 0 20px rgba(var(--color-one-rgb), 0.05);
 }
 
 .wptb-icon-box3 .wptb-item--icon {
@@ -2679,11 +2680,11 @@ Ready Components Stylesheet
 }
 
 .wptb-icon-box3 .wptb-item--title {
-    margin: 0px 0px 10px 0px;
+    margin: 0 0 10px 0;
 }
 
 .wptb-icon-box3 .wptb-item--description {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 /* Iconbox 4 */
@@ -2749,11 +2750,11 @@ Ready Components Stylesheet
     line-height: 36px; /* 150% */
     letter-spacing: -0.24px;
     text-transform: uppercase;
-    margin: 0px 0px 10px 0px;
+    margin: 0 0 10px 0;
 }
 
 .wptb-icon-box4 .wptb-item--description {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 991px) {
@@ -2778,7 +2779,7 @@ Ready Components Stylesheet
 .wptb-icon-box5:hover {
     background-color: var(--color-one);
     border-color: var(--color-one);
-    box-shadow: 0px 35px 40px 10px rgba(var(--color-black-fixed-rgb), 0.25);
+    box-shadow: 0 35px 40px 10px rgba(var(--color-black-fixed-rgb), 0.25);
 }
 .wptb-icon-box5 .wptb-item--inner {
     display: flex;
@@ -2841,7 +2842,7 @@ Ready Components Stylesheet
 .wptb-icon-box6 {
     background: transparent;
     margin-bottom: 30px;
-    border-radius: 0px;
+    border-radius: 0;
     transition: var(--transition-base);
     padding-left: 30px;
     border-left: 1px solid var(--color-dark-seven);
@@ -2858,14 +2859,14 @@ Ready Components Stylesheet
     font-weight: var(--fw-medium);
     line-height: 22px;
     letter-spacing: -0.38px;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 15px;
     transition: var(--transition-base);
 }
 .wptb-icon-box6 .wptb-item--description {
     font-size: 16px;
     line-height: 26px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     transition: var(--transition-base);
 }
 .wptb-icon-box6 .wptb-item--icon {
@@ -2888,7 +2889,7 @@ Ready Components Stylesheet
 .wptb-icon-box7 {
     background: transparent;
     margin-bottom: 30px;
-    border-radius: 0px;
+    border-radius: 0;
     transition: var(--transition-base);
     padding: 30px;
 }
@@ -2908,8 +2909,8 @@ Ready Components Stylesheet
     font-size: 20px;
     font-weight: var(--fw-medium);
     line-height: 22px;
-    letter-spacing: 0px;
-    margin-top: 0px;
+    letter-spacing: 0;
+    margin-top: 0;
     margin-bottom: 15px;
     transition: var(--transition-base);
 }
@@ -2932,7 +2933,7 @@ Ready Components Stylesheet
 .wptb-icon-box7 .wptb-item--description {
     font-size: 16px;
     line-height: 26px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     transition: var(--transition-base);
 }
 .wptb-icon-box7 .wptb-item--count {
@@ -3213,7 +3214,7 @@ Ready Components Stylesheet
 }
 
 .wptb-image-box2 .wptb-item--inner .wptb-item--title {
-	margin-bottom: 0px;
+	margin-bottom: 0;
     font-size: 20px;
     font-style: normal;
     font-weight: var(--fw-medium);
@@ -3230,7 +3231,7 @@ Ready Components Stylesheet
     font-style: normal;
     font-weight: var(--fw-medium);
     line-height: 38.634px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: var(--color-white);
     text-transform: uppercase;
 }
@@ -3335,7 +3336,7 @@ Ready Components Stylesheet
 }
 
 .wptb-image-box3 .wptb-item--inner .wptb-item--title {
-	margin-bottom: 0px;
+	margin-bottom: 0;
     letter-spacing: -0.36px;
 }
 
@@ -3348,7 +3349,7 @@ Ready Components Stylesheet
     font-style: normal;
     font-weight: var(--fw-medium);
     line-height: 38.634px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: var(--color-white);
     text-transform: uppercase;
 }
@@ -3380,7 +3381,7 @@ Ready Components Stylesheet
     display: none;
 }
 .wptb-image-box3 .wptb-item--inner .wptb-item--button .btn-three .btn-wrap .text-first {
-    right: 0px;
+    right: 0;
 }
 .wptb-image-box3 .wptb-item--inner .wptb-item--button .btn-three .btn-wrap .text-second {
     top: 0;
@@ -3393,7 +3394,7 @@ Ready Components Stylesheet
     transform: none;
 }
 .wptb-image-box3 .wptb-item--inner .wptb-item--button .btn-three:hover .btn-wrap .text-second {
-    right: 0px;
+    right: 0;
     color: var(--color-one);
     -webkit-transform: none;
     -ms-transform: none;
@@ -3475,7 +3476,7 @@ Ready Components Stylesheet
     line-height: 32px;
     font-weight: var(--fw-medium);
     text-transform: uppercase;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     flex: 0;
 }
 
@@ -3508,7 +3509,7 @@ Ready Components Stylesheet
     font-size: 18px;
     line-height: 32px;
     font-weight: var(--fw-medium);
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
@@ -3938,7 +3939,7 @@ Ready Components Stylesheet
     position: relative;
     font-size: 24px;
     line-height: 30px;
-    padding: 16px 0px;
+    padding: 16px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -3965,7 +3966,7 @@ Ready Components Stylesheet
     transition: 250ms all linear 0ms;
     position: absolute;
     top: 50%;
-    right: 0px;
+    right: 0;
     transform: translateY(-50%);
     color: var(--color-white);
     width: 40px;
@@ -3991,7 +3992,7 @@ Ready Components Stylesheet
 }
 
 .wptb-accordion1 .wptb--item .wptb-item--content {
-    padding: 30px 0px;
+    padding: 30px 0;
     display: none;
 }
 
@@ -4011,7 +4012,7 @@ Ready Components Stylesheet
     position: relative;
     font-size: 24px;
     line-height: 30px;
-    padding: 16px 0px;
+    padding: 16px 0;
     color: var(--color-white-fixed);
     display: flex;
     align-items: center;
@@ -4039,7 +4040,7 @@ Ready Components Stylesheet
     transition: 250ms all linear 0ms;
     position: absolute;
     top: 50%;
-    right: 0px;
+    right: 0;
     transform: translateY(-50%);
     color: var(--color-white-fixed);
     width: 40px;
@@ -4066,7 +4067,7 @@ Ready Components Stylesheet
 
 .wptb-accordion2 .wptb--item .wptb-item--content {
     color: var(--color-two-fixed);
-    padding: 30px 0px;
+    padding: 30px 0;
     display: none;
 }
 
@@ -4114,7 +4115,7 @@ Ready Components Stylesheet
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid var(--color-dark-four);
-    padding: 0px 30px;
+    padding: 0 30px;
 }
 .wptb-blog-grid1 .wptb-item--inner .wptb-item--meta-right {
     display: flex;
@@ -4133,7 +4134,7 @@ Ready Components Stylesheet
     gap: 10px;
     padding: 10px 30px;
     margin-right: 30px;
-    border-width: 0px 1px 0px 1px;
+    border-width: 0 1px 0 1px;
     border-style: solid;
     border-color: var(--color-dark-four);
 }
@@ -4160,7 +4161,7 @@ Ready Components Stylesheet
     color: var(--color-white-fixed);
     background-color: var(--color-one);
     border-radius: 5px;
-    padding: 0px 7px;
+    padding: 0 7px;
 }
 
 
@@ -4209,7 +4210,7 @@ Ready Components Stylesheet
 } */
 
 .wptb-blog-grid1 .wptb-item--inner .wptb-item--title {
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 .wptb-blog-grid1 .wptb-item--inner .wptb-item--title a:not(:hover) {
@@ -4324,7 +4325,7 @@ Ready Components Stylesheet
     width: 100%;
 	transition: var(--transition-base);
     border: 1px solid var(--color-dark-four);
-    border-left: 0px;
+    border-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -4334,7 +4335,7 @@ Ready Components Stylesheet
     justify-content: end;
     align-items: center;
     border-top: 1px solid var(--color-dark-four);
-    padding: 0px 30px;
+    padding: 0 30px;
 }
 .wptb-blog-grid2 .wptb-item--inner .wptb-item--meta-right {
     display: flex;
@@ -4364,7 +4365,7 @@ Ready Components Stylesheet
     gap: 10px;
     padding: 10px 30px;
     margin-right: 30px;
-    border-width: 0px 1px 0px 0px;
+    border-width: 0 1px 0 0;
     border-style: solid;
     border-color: var(--color-dark-four);
 }
@@ -4561,8 +4562,8 @@ Ready Components Stylesheet
         gap: 10px;
     }
     .wptb-blog-grid1 .wptb-item--inner .wptb-item--comments a {
-        padding-left: 0px;
-        border-width: 0px;
+        padding-left: 0;
+        border-width: 0;
     }
 }
 
@@ -4581,9 +4582,9 @@ Ready Components Stylesheet
 .wptb-packages1 .wptb-item--inner::before{
     content: '';
     position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
     height: 0%;
     z-index: -1;
@@ -4660,7 +4661,7 @@ Ready Components Stylesheet
     letter-spacing: 1.33px;
     text-transform: uppercase;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .wptb-packages1 .wptb-item--inner .wptb-item--title sub {
@@ -4679,7 +4680,7 @@ Ready Components Stylesheet
     font-weight: var(--fw-light);
     line-height: 26px;
     margin-top: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -4740,7 +4741,7 @@ Ready Components Stylesheet
 .wptb-packages2 .wptb-item--inner {
     position: relative;
     overflow: hidden;
-    padding: 0px;
+    padding: 0;
     background: var(--gradient-two-180-alt);
     border-radius: 20px;
     background-position: center;
@@ -4755,10 +4756,10 @@ Ready Components Stylesheet
 }
 .wptb-packages2 .wptb-item--image {
     flex-shrink: 0;
-    padding: 0px 0px 0px 30px;
+    padding: 0 0 0 30px;
 }
 .wptb-packages2:nth-child(even) .wptb-item--image {
-    padding: 0px 30px 0px 0px;
+    padding: 0 30px 0 0;
 }
 .wptb-packages2 .wptb-item--tag {
     display: inline-block;
@@ -4784,7 +4785,7 @@ Ready Components Stylesheet
     position: relative;
     z-index: 1;
     padding: 90px 100px 100px 85px;
-    margin-top: 0px !important;
+    margin-top: 0 !important;
 }
 .wptb-packages2:nth-child(even) .wptb-item--holder {
     padding: 90px 85px 100px 100px;
@@ -4806,7 +4807,7 @@ Ready Components Stylesheet
     letter-spacing: 0.3px;
     text-transform: uppercase;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .wptb-packages2 .wptb-item--inner .wptb-item--title sub {
@@ -4824,7 +4825,7 @@ Ready Components Stylesheet
     font-weight: var(--fw-light);
     line-height: 28px;
     margin-top: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -4834,7 +4835,7 @@ Ready Components Stylesheet
 .wptb-packages2 .wptb-item--inner .note {
     color: var(--color-white);
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .wptb-packages2 .wptb-item--inner .wptb-list1 {
     margin-top: 50px;
@@ -5042,7 +5043,7 @@ Ready Components Stylesheet
     font-size: 20px;
     font-weight: var(--fw-light);
     line-height: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: var(--color-two-fixed);
 }
 
@@ -5140,7 +5141,7 @@ Ready Components Stylesheet
 	font-family: var(--font-family-base);
     font-size: 18px;
     line-height: 27px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: var(--color-white);
 }
 .wptb-testimonial2 .wptb-item--inner .wptb-item--title {
@@ -5248,13 +5249,13 @@ Ready Components Stylesheet
 /* Horizontal Progressbar */
 .wptb-progressbar .progress {
     overflow: visible;
-    border-radius: 0px;
+    border-radius: 0;
     background-color: rgba(var(--color-white-rgb), 0.15);
 }
 .wptb-progressbar .progress-bar {
     position: relative;
     overflow: visible;
-    border-radius: 0px;
+    border-radius: 0;
     background: var(--gradient-three);
 }
 .wptb-progressbar .wptb-progress--label {
@@ -5271,7 +5272,7 @@ Ready Components Stylesheet
     font-style: normal;
     font-weight: var(--fw-light);
     line-height: 30px; /* 150% */
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: var(--color-white);
     position: absolute;
     bottom: 100%;
@@ -5440,7 +5441,7 @@ svg.radial-progress {
     color: var(--color-white-fixed);
     background: var(--color-one);
     border-radius: 100%;
-    padding: 0px;
+    padding: 0;
     font-size: 20px;
     text-transform: capitalize;
     background-size: 200% auto;
@@ -5534,12 +5535,12 @@ svg.radial-progress {
 .wptb-tab .wptb-item--inner .tab-pane {
     background-color: var(--color-white);
     padding: 70px 80px;
-    box-shadow: 0px 0px 50px 0px rgba(149, 154, 181, 0.15);
+    box-shadow: 0 0 50px 0 rgba(149, 154, 181, 0.15);
 }
 
 .wptb-tab .wptb-item--inner .wptb-item--holder {
     position: relative;
-    padding: 0px 0px;
+    padding: 0 0;
     width: 100%;
     list-style-type: none;
 }
@@ -5685,7 +5686,7 @@ svg.radial-progress {
 .wptb-team-grid1 .wptb-item--inner .wptb-item--meta {
     position: relative;
     background-color: transparent;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0 0 0;
 	transition: var(--transition-base);
 	-webkit-transition: var(--transition-base);
 	-ms-transition: var(--transition-base);
@@ -5709,7 +5710,7 @@ svg.radial-progress {
     font-size: 20px;
     line-height: 30px;
     color: var(--color-white);
-    margin-bottom: 0px;
+    margin-bottom: 0;
 	transition: var(--transition-base);
 	-webkit-transition: var(--transition-base);
 	-ms-transition: var(--transition-base);
@@ -5782,7 +5783,7 @@ svg.radial-progress {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin: 0px;
+    margin: 0;
 	transition: var(--transition-base);
 	-webkit-transition: var(--transition-base);
 	-ms-transition: var(--transition-base);
@@ -5833,7 +5834,7 @@ svg.radial-progress {
     font-weight: var(--fw-medium);
     line-height: 36px; /* 150% */
     letter-spacing: -0.24px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .wptb-team-grid2 .wptb-item--inner .wptb-item--meta .wptb-item--title a {
@@ -5851,13 +5852,13 @@ svg.radial-progress {
     line-height: 14px; /* 116.667% */
     letter-spacing: 0.6px;
     text-transform: uppercase;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .wptb-team-grid2 .wptb-item--inner .wptb-item--meta::before {
     content: '';
     position: absolute;
-    left: 0px;
+    left: 0;
     top: 0;
     bottom: 0;
     width: 4px;
@@ -5959,7 +5960,7 @@ svg.radial-progress {
     font-weight: var(--fw-medium);
     line-height: 32px;
     text-transform: uppercase;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 	transition: var(--transition-base);
 	-webkit-transition: var(--transition-base);
 	-ms-transition: var(--transition-base);
@@ -6065,7 +6066,7 @@ svg.radial-progress {
 }
 .wptb-newsletter .wptb-item--inner {
     position: relative;
-    padding: 100px 0px;
+    padding: 100px 0;
     overflow: hidden;
 }
 .wptb-newsletter .wptb-item--inner .wptb-item--title {
@@ -6199,7 +6200,7 @@ svg.radial-progress {
 .wptb-text-marquee1.wptb-slide-to-left .wptb-item--text img {
     width: 60px;
     height: 60px;
-    margin: 0px 45px;
+    margin: 0 45px;
     animation: wptb_spin_rv 60s linear infinite;
     -webkit-animation: wptb_spin_rv 60s linear infinite;
 }
@@ -6263,7 +6264,7 @@ svg.radial-progress {
     font-size: 30px;
     font-weight: var(--fw-medium);
     line-height: 40px;
-    padding: 70px 0px;
+    padding: 70px 0;
     transition: var(--transition-base);
 }
 .wptb-award-list .wptb-item + .wptb-item {
@@ -6318,7 +6319,7 @@ svg.radial-progress {
 
 .wptb-award-list .wptb-item.active .wptb-item--holder a::before,
 .wptb-award-list .wptb-item:hover .wptb-item--holder a::before {
-    width: 0px;
+    width: 0;
 }
 
 .wptb-award-list .wptb-item .wptb-item--holder a::after {
@@ -6327,7 +6328,7 @@ svg.radial-progress {
     position: absolute;
     left: 50px;
     top: 50%;
-    width: 0px;
+    width: 0;
     height: 2px;
     background-color: var(--color-one);
     transform: rotate(0deg);
@@ -6410,7 +6411,7 @@ svg.radial-progress {
     font-weight: var(--fw-medium);
     line-height: 36px;
     color: var(--color-white);
-    padding: 24px 0px;
+    padding: 24px 0;
     transition: var(--transition-base);
 }
 .wptb-features .wptb-item + .wptb-item .wptb-item--features-holder {
@@ -6541,7 +6542,7 @@ svg.radial-progress {
     gap: 10px;
     flex-wrap: wrap;
     border-top: 1px solid var(--color-dark-seven);
-    padding: 20px 0px 0px;
+    padding: 20px 0 0;
     margin-top: 80px;
 }
 
@@ -6566,8 +6567,8 @@ svg.radial-progress {
 /* Social Style */
 .social-box ul{
 	position:relative;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -6613,7 +6614,7 @@ svg.radial-progress {
 
 /* Style Square */
 .social-box.style-square ul li a {
-    border-radius: 0px;
+    border-radius: 0;
     border-color: rgba(var(--color-dark-seven-rgb), 1);
 }
 
@@ -6637,7 +6638,7 @@ svg.radial-progress {
 /* Custom */
 
 .empty-progressbar {
-    min-height: 10px;
+    min-height: 50px;
 }
 
 @media screen and (min-width: 1200px) {
