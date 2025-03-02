@@ -59,10 +59,11 @@
   left: 44.5%;
   transform: translateX(-50%);
   transform-origin: center;
-  top: 17px;
+  top: 30%;
   animation: spinner 2.5s infinite linear;
   display: inline-block;
-  width: auto;
+  width: 10%;       /* встановлюємо відсоткове значення, щоб колесо було адаптивним */
+  max-width: 100%;  /* гарантуємо, що зображення не перевищує контейнер */
 }
 
 /* Loading text */
