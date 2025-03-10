@@ -1205,7 +1205,9 @@
         <div class="container">
             <div class="footer-bottom-inner">
                 <div class="copyright">
-                    <p><span>Oshu</span> studio, All Rights Reserved</p>
+                    <p>
+                        <span>Oshu</span> studio, &copy; <span id="year"></span> All Rights Reserved
+                    </p>
                 </div>
                 <div class="social-box style-oval">
                     <ul>
@@ -1290,6 +1292,10 @@
 
     // Optionally, update if the window is resized
     window.addEventListener("resize", updateVideoSource);
+</script>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
 </body>
