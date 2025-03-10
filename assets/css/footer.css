@@ -68,6 +68,13 @@
     position: relative;
     line-height: normal;
 }
+
+@media screen and (max-width: 575px) {
+    .footer .footer-nav li {
+        text-align: center;
+    }
+}
+
 .footer .footer-nav li + li {
     margin-top: 26px;
 }
@@ -312,3 +319,4 @@
         margin-top: 8px;
     }
 }
+
