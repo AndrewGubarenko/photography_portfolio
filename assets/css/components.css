@@ -159,7 +159,7 @@ Ready Components Stylesheet
 }
 .wptb-item--description-p {
     font-size: var(--fs-14);
-    text-align: center;
+    text-align: left;
 }
 .wptb-heading-two .wptb-item--description span {
     color: var(--color-white);

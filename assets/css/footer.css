@@ -310,8 +310,8 @@
 }
 @media screen and (max-width: 575.9px) {
     .footer-upper-contact .wptb-icon-box1 .wptb-item--inner {
-        border-width: 0px;
-        margin-right: 0px;
+        border-width: 0;
+        margin-right: 0;
     }
     .footer .newsletter-form button.btn {
         position: relative;
