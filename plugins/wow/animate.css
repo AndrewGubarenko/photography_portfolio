@@ -1052,6 +1052,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
 }
 
 @-webkit-keyframes fadeInLeftBig {
