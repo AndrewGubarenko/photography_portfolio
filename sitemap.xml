@@ -1,28 +1,29 @@
+<!--
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- Главная страница -->
+    &lt;!&ndash; Главная страница &ndash;&gt;
     <url>
         <loc>https://example.com/index.html</loc>
         <lastmod>2025-03-26</lastmod>
         <priority>1.0</priority>
     </url>
 
-    <!-- Страница About Us (в разработке, но всё равно в sitemap) -->
+    &lt;!&ndash; Страница About Us (в разработке, но всё равно в sitemap) &ndash;&gt;
     <url>
         <loc>https://example.com/about-us</loc>
         <lastmod>2025-03-26</lastmod>
         <priority>0.8</priority>
     </url>
 
-    <!-- Страница Services (также в разработке) -->
+    &lt;!&ndash; Страница Services (также в разработке) &ndash;&gt;
     <url>
         <loc>https://example.com/services</loc>
         <lastmod>2025-03-26</lastmod>
         <priority>0.8</priority>
     </url>
 
-    <!-- Подразделы Services (Fashion and Brand, Personal and Family, и т.д.) -->
+    &lt;!&ndash; Подразделы Services (Fashion and Brand, Personal and Family, и т.д.) &ndash;&gt;
     <url>
         <loc>https://example.com/services/fashion-and-brand</loc>
         <lastmod>2025-03-26</lastmod>
@@ -54,7 +55,7 @@
         <priority>0.7</priority>
     </url>
 
-    <!-- Страница Contact -->
+    &lt;!&ndash; Страница Contact &ndash;&gt;
     <url>
         <loc>https://example.com/pages/contacts.html</loc>
         <lastmod>2025-03-26</lastmod>
@@ -62,3 +63,4 @@
     </url>
 
 </urlset>
+-->
