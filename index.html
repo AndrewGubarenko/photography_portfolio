@@ -38,32 +38,6 @@
             ]
         }
     </script>-->
-    <!--<script>
-        // Function to update the video source based on screen width
-        function updateVideoSource() {
-            const video = document.querySelector('.bg-video');
-            if (!video) return; // Make sure the video element exists
-
-            const source = video.querySelector('source');
-            if (!source) return; // Ensure the source element exists
-
-            // Check if the screen is small (for example, less than 768px wide)
-            if (window.matchMedia("(max-width: 767px)").matches) {
-                source.src = 'assets/img/projects/video/main_small.mp4';
-            } else {
-                source.src = 'assets/img/projects/video/main_full.mp4';
-            }
-
-            // Reload the video element so it picks up the new source
-            video.load();
-        }
-
-        // Run the function on DOM content loaded
-        document.addEventListener("DOMContentLoaded", updateVideoSource);
-
-        // Optionally, update if the window is resized
-        window.addEventListener("resize", updateVideoSource);
-    </script>-->
 
 </head>
 
@@ -1425,6 +1399,33 @@
 
 <!-- Theme Custom JS -->
 <script src="assets/js/theme.js"></script>
+
+<script>
+    // Function to update the video source based on screen width
+    function updateVideoSource() {
+        const video = document.querySelector('.bg-video');
+        if (!video) return; // Make sure the video element exists
+
+        const source = video.querySelector('source');
+        if (!source) return; // Ensure the source element exists
+
+        // Check if the screen is small (for example, less than 768px wide)
+        if (window.matchMedia("(max-width: 767px)").matches) {
+            source.src = 'assets/img/projects/video/main_small.mp4';
+        } else {
+            source.src = 'assets/img/projects/video/main_full.mp4';
+        }
+
+        // Reload the video element so it picks up the new source
+        video.load();
+    }
+
+    // Run the function on DOM content loaded
+    document.addEventListener("DOMContentLoaded", updateVideoSource);
+
+    // Optionally, update if the window is resized
+    window.addEventListener("resize", updateVideoSource);
+</script>
 
 <script>
     document.getElementById('year').textContent = new Date().getFullYear();
