@@ -1401,42 +1401,55 @@
 <script src="assets/js/theme.js"></script>
 
 <script>
-    // Function to update the video source based on screen width
     function updateVideoSource() {
         const video = document.querySelector('.bg-video');
-        if (!video) return; // Make sure the video element exists
+        if (!video) return;
 
         const source = video.querySelector('source');
-        if (!source) return; // Ensure the source element exists
+        if (!source) return;
 
-        // Check if the screen is small (for example, less than 768px wide)
-        if (window.matchMedia("(max-width: 767px)").matches) {
-            source.src = 'assets/img/projects/video/main_small.mp4';
-        } else {
-            source.src = 'assets/img/projects/video/main_full.mp4';
+        const isMobile = window.matchMedia("(max-width: 767px)").matches;
+        const newSrc = isMobile
+            ? 'assets/img/projects/video/main_small.mp4'
+            : 'assets/img/projects/video/main_full.mp4';
+
+        // Только обновляем, если src реально изменился
+        if (source.src !== window.location.origin + '/' + newSrc) {
+            source.src = newSrc;
+
+            // Принудительно задать нужные свойства
+            video.muted = true;
+            video.setAttribute('playsinline', '');
+            video.setAttribute('autoplay', '');
+            video.setAttribute('loop', '');
+
+            // Подождать загрузки перед воспроизведением
+            video.load();
+            video.addEventListener('loadeddata', () => {
+                video.play().catch(err => {
+                    console.warn("Автозапуск не удался после load:", err);
+                });
+            }, { once: true }); // Один раз
         }
-
-        // Reload the video element so it picks up the new source
-        video.load();
     }
 
-    // Run the function on DOM content loaded
+    // Инициализация
     document.addEventListener("DOMContentLoaded", updateVideoSource);
-
-    // Optionally, update if the window is resized
     window.addEventListener("resize", updateVideoSource);
-</script>
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
+    // Также запуск при касании на случай блокировки autoplay
+    const tryPlay = () => {
         const video = document.querySelector('.bg-video');
         if (video) {
             video.play().catch(err => {
-                // Иногда автозапуск блокируется, можно логировать или добавить fallback
-                console.warn("Видео не запустилось автоматически:", err);
+                console.warn("Видео не запустилось при взаимодействии:", err);
             });
         }
-    });
+        document.removeEventListener('click', tryPlay);
+        document.removeEventListener('touchstart', tryPlay);
+    };
+    document.addEventListener('click', tryPlay);
+    document.addEventListener('touchstart', tryPlay);
 </script>
 
 <script>
