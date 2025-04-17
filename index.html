@@ -1401,6 +1401,8 @@
 <script src="assets/js/theme.js"></script>
 
 <script>
+    let videoStarted = false;
+
     function updateVideoSource() {
         const video = document.querySelector('.bg-video');
         if (!video) return;
@@ -1413,44 +1415,52 @@
             ? 'assets/img/projects/video/main_small.mp4'
             : 'assets/img/projects/video/main_full.mp4';
 
-        // Только обновляем, если src реально изменился
-        if (source.src !== window.location.origin + '/' + newSrc) {
-            source.src = newSrc;
+        const currentSrc = source.getAttribute('src');
+        if (currentSrc !== newSrc) {
+            source.setAttribute('src', newSrc);
 
-            // Принудительно задать нужные свойства
             video.muted = true;
             video.setAttribute('playsinline', '');
             video.setAttribute('autoplay', '');
             video.setAttribute('loop', '');
 
-            // Подождать загрузки перед воспроизведением
             video.load();
             video.addEventListener('loadeddata', () => {
-                video.play().catch(err => {
-                    console.warn("Автозапуск не удался после load:", err);
-                });
-            }, { once: true }); // Один раз
+                if (!videoStarted) {
+                    video.play().then(() => {
+                        videoStarted = true;
+                    }).catch(err => {
+                        console.warn("Автозапуск не удался после load:", err);
+                    });
+                }
+            }, { once: true });
         }
     }
 
-    // Инициализация
     document.addEventListener("DOMContentLoaded", updateVideoSource);
     window.addEventListener("resize", updateVideoSource);
 
-    // Также запуск при касании на случай блокировки autoplay
-    const tryPlay = () => {
+    function tryPlayOnce() {
         const video = document.querySelector('.bg-video');
-        if (video) {
-            video.play().catch(err => {
+        if (video && !videoStarted) {
+            video.play().then(() => {
+                videoStarted = true;
+            }).catch(err => {
                 console.warn("Видео не запустилось при взаимодействии:", err);
             });
         }
-        document.removeEventListener('click', tryPlay);
-        document.removeEventListener('touchstart', tryPlay);
-    };
-    document.addEventListener('click', tryPlay);
-    document.addEventListener('touchstart', tryPlay);
+
+        // Снимаем события после первого взаимодействия
+        document.removeEventListener('click', tryPlayOnce);
+        document.removeEventListener('touchstart', tryPlayOnce);
+        document.removeEventListener('scroll', tryPlayOnce);
+    }
+
+    document.addEventListener('click', tryPlayOnce);
+    document.addEventListener('touchstart', tryPlayOnce);
+    document.addEventListener('scroll', tryPlayOnce);
 </script>
+
 
 <script>
     document.getElementById('year').textContent = new Date().getFullYear();
