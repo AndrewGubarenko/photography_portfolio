@@ -1428,6 +1428,18 @@
 </script>
 
 <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const video = document.querySelector('.bg-video');
+        if (video) {
+            video.play().catch(err => {
+                // Иногда автозапуск блокируется, можно логировать или добавить fallback
+                console.warn("Видео не запустилось автоматически:", err);
+            });
+        }
+    });
+</script>
+
+<script>
     document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
