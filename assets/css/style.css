@@ -6,7 +6,7 @@
 }
 .wptb-about-one .wptb-item-layer-one {
     left: 5%;
-    bottom: 0%;
+    bottom: 0;
 }
 .wptb-about-one .wptb-item-layer-two {
     right: 13%;
@@ -91,13 +91,13 @@
     z-index: 0;
 }
 .wptb-about-two .wptb-item-layer-two {
-    left: 0%;
-    top: 0%;
+    left: 0;
+    top: 0;
     z-index: 0;
 }
 .wptb-about-two .wptb-item-layer-three {
-    right: 0%;
-    top: 0%;
+    right: 0;
+    top: 0;
     z-index: 0;
 }
 .wptb-about-two .wptb-about--text {

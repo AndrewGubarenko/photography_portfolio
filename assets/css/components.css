@@ -2172,7 +2172,7 @@ Ready Components Stylesheet
 .wptb-slider .vimeovideo-bg {
     position: relative;
     padding-top: 56.25%;
-    padding-bottom: 0%;
+    padding-bottom: 0;
     height: 0;
 }
 .wptb-slider .vimeovideo-bg iframe {
@@ -3171,7 +3171,7 @@ Ready Components Stylesheet
 .swiper-slide-active .wptb-image-box2 .wptb-item--image::before,
 .wptb-image-box2.active .wptb-item--image::before,
 .wptb-image-box2:hover .wptb-item--image::before {
-    height: 0%;
+    height: 0;
     opacity: 0;
 }
 .wptb-image-box2 .wptb-item--image::after {
@@ -3181,7 +3181,7 @@ Ready Components Stylesheet
     right: 0;
     bottom: 0;
     background: linear-gradient(0deg, rgba(var(--color-one-rgb), 0.80) 7%, rgba(var(--color-one-rgb), 0.0) 90%);
-    height: 0%;
+    height: 0;
     opacity: 0;
     transition: var(--transition-base);
 }
@@ -4591,7 +4591,7 @@ Ready Components Stylesheet
     right: 0;
     bottom: 0;
     width: 100%;
-    height: 0%;
+    height: 0;
     z-index: -1;
     background: -webkit-linear-gradient(180deg, #141414 0%, #3E3A3A 100%);
     background: -moz-linear-gradient(180deg, #141414 0%, #3E3A3A 100%);
@@ -4609,7 +4609,7 @@ Ready Components Stylesheet
     right: 1px;
     bottom: 1px;
     width: calc(100% - 2px);
-    height: 0%;
+    height: 0;
     z-index: 0;
     border-radius: 10px;
     background: -webkit-linear-gradient(180deg, #151515 0%, #212121 100%);
@@ -5617,7 +5617,7 @@ svg.radial-progress {
     left: 0;
     right: 0;
     width: 100%;
-    height: 0%;
+    height: 0;
     background: var(--gradient-one-180);
     opacity: 0.6;
 	transition: var(--transition-base);
@@ -5796,7 +5796,7 @@ svg.radial-progress {
 }
 
 .wptb-team-grid2 .wptb-item--inner:hover .wptb-item--social {
-    top: 0%;
+    top: 0;
 }
 
 .wptb-team-grid2 .wptb-item--inner .wptb-item--social a {
@@ -5867,7 +5867,7 @@ svg.radial-progress {
     top: 0;
     bottom: 0;
     width: 4px;
-    height: 0%;
+    height: 0;
     background-color: var(--color-one);
 	transition: all 0.8s ease-in-out;
 	-webkit-transition: all 0.8s ease-in-out;

@@ -365,13 +365,13 @@
         fill: #000 0
     }
     95% {
-        stroke-dasharray: 0%;
+        stroke-dasharray: 0;
         stroke-dashoffset: 90%;
         fill: #000 0
     }
     100% {
-        stroke-dasharray: 0%;
-        stroke-dashoffset: 0%;
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
         fill: #9b9dad;
         filter: drop-shadow(2px 2px 10px #000 7)
     }

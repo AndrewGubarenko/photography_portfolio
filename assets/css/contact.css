@@ -3,7 +3,7 @@
 }
 .contact-section.home {
     padding: var(--space-0);
-    background-image: url(../images/background/16.png);
+    background-image: url('../img/background/bg-16.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@
 }
 .contact-box:hover {
     border-color: transparent;
-    box-shadow: 0px 10px 60px rgba(137, 151, 186, 0.15);
+    box-shadow: 0 10px 60px rgba(137, 151, 186, 0.15);
 }
 .contact-box .box-image {
     overflow: hidden;
@@ -80,7 +80,7 @@
     line-height: 90px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0px 10px 20px rgba(137, 151, 186, 0.2);
+    box-shadow: 0 10px 20px rgba(137, 151, 186, 0.2);
     margin: -45px auto 25px;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
@@ -95,7 +95,7 @@
 }
 
 .contact-form {
-    background-image: url('../images/background/6.png');
+    background-image: url('../img/background/6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -642,7 +642,7 @@
   transition: var(--transition-base);
 }
 .effect-gradient .grid-item:hover .wptb-item--holder {
-  bottom: 0%;
+  bottom: 0;
 }
 .effect-gradient .grid-item .wptb-item--meta h4 {
   transform: translateY(10px);
@@ -717,7 +717,7 @@
   transition: all 1.5s ease-in-out;
 }
 .swiper-slide.swiper-slide-active .grid-item .wptb-item--holder {
-  bottom: 0%;
+  bottom: 0;
 }
 .swiper-slide .grid-item .wptb-item--meta h4 {
   transform: translateY(10px);
