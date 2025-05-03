@@ -197,7 +197,7 @@
 .theme-style--light.theme-style--olive .wptb-icon-box7.active,
 .theme-style--light.theme-style--olive .wptb-icon-box7:hover {
     background-color: rgba(var(--color-black-rgb), 1);
-    box-shadow: 0px 50px 40px 15px rgba(var(--color-black-rgb), 0.06);
+    box-shadow: 0 50px 40px 15px rgba(var(--color-black-rgb), 0.06);
 }
 
 .theme-style--light .wptb-slider.style1 .wptb-heading .wptb-item--title.text-outline {

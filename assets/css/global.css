@@ -370,8 +370,8 @@ body:has(.sidebar) {
 }
 @media screen and (max-width: 767.98px){
     body {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
 } */
 
@@ -492,8 +492,8 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     color: var(--color-white);
     font-weight: var(--fw-medium);
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     transition: var(--transition-base);
 }
 
@@ -572,7 +572,7 @@ a:after {
     clear: both;
 }
 .divider {
-    margin: 30px 0px;
+    margin: 30px 0;
     display: inline-block;
 }
 .divider-line-hr {
@@ -615,7 +615,7 @@ img {
 
 .section, section{
     position: relative;
-    padding: 115px 0px;
+    padding: 115px 0;
 }
 
 .bg-image {
@@ -677,9 +677,9 @@ textarea,
     background-color: rgba(var(--color-dark-six-rgb), 0.30);
     background-clip: padding-box;
     border: 1px solid var(--color-dark-seven);
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
     transition: var(--transition-bezier);
     backface-visibility: hidden;
     box-sizing: border-box;
@@ -691,9 +691,9 @@ textarea,
 textarea,
 textarea.form-control {
     height: 200px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
 
 input[type="text"]:focus,
@@ -720,7 +720,7 @@ textarea.form-control:focus,
     background-color: rgba(var(--color-dark-six-rgb), 0.50);
     border-color: var(--color-dark-seven);
     outline: none;
-    outline-offset: 0px;
+    outline-offset: 0;
     box-shadow: none;
     transition: var(--transition-bezier);
 }
@@ -772,12 +772,12 @@ input[type="submit"],
     text-transform: capitalize;
     color: var(--color-white-fixed);
     background: var(--color-one);
-    border-width: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-    border-radius: 0px;
+    border-width: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
     letter-spacing: 0.8px;
     cursor: pointer;
     overflow: hidden;
@@ -813,25 +813,25 @@ input[type="submit"]:hover {
 .btn.creative::before {
     left: 0;
     top: 0;
-    border-width: 1px 0px 0px 1px;
+    border-width: 1px 0 0 1px;
 }
 
 .btn.creative::after {
     right: 0;
     bottom: 0;
-    border-width: 0px 1px 1px 0px;
+    border-width: 0 1px 1px 0;
 }
 
 .btn.creative .btn-wrap::before {
     left: 0;
     bottom: 0;
-    border-width: 0px 0px 1px 1px;
+    border-width: 0 0 1px 1px;
 }
 
 .btn.creative .btn-wrap::after {
     top: 0;
     right: 0;
-    border-width: 1px 1px 0px 0px;
+    border-width: 1px 1px 0 0;
 }
 
 .btn:hover::before,
@@ -935,7 +935,7 @@ input[type="submit"]:hover {
 
 .btn-two:hover .text-second i + i,
 .btn-two:hover .text-second svg + svg {
-    transform: translate(0px, 0px);
+    transform: translate(0px, 0);
 }
 
 /* Gray */
@@ -1080,11 +1080,11 @@ input[type="submit"]:hover {
     color: var(--color-white);
     background: var(--color-one);
     border: 1px solid transparent;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-    border-radius: 0px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
     letter-spacing: 0.8px;
     cursor: pointer;
     overflow: hidden;
@@ -1154,13 +1154,13 @@ body::-webkit-scrollbar-thumb {
 /* Pagination */
 .pagination {
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     list-style-type: none;
     align-items: center;
     justify-content: center;
 }
 .pagination li {
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 .pagination li .page-number {
     font-size: 15px;
@@ -1201,7 +1201,7 @@ body::-webkit-scrollbar-thumb {
 
 /* Margin Both */
 .mr-0 { 
-    margin: 0px;
+    margin: 0;
 }
 .mr-5 { 
     margin: 5px;
@@ -1679,7 +1679,7 @@ body::-webkit-scrollbar-thumb {
 
 /* Padding Both */
 .pd-0 {
-    padding: 0px;
+    padding: 0;
 }
 .pd-5 { 
     padding: 5px;

@@ -6,15 +6,15 @@
 
 /* Service Details Sidenav */
 .sidenav ul {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .sidenav ul li {
     list-style: none;
     display: inline-block;
     width: 100%;
-    margin: 4px 0px;
+    margin: 4px 0;
     border-bottom: 1px dashed var(--color-dark-seven);
 }
 
@@ -26,10 +26,10 @@
     line-height: 30px;
     color: var(--color-white);
     list-style: none;
-    padding: 22px 0px;
+    padding: 22px 0;
     display: flex;
     align-items: center;
-    border-radius: 0px;
+    border-radius: 0;
     letter-spacing: -0.2px;
 }
 
@@ -93,16 +93,16 @@
 .widget-title:before {
     position: absolute;
     content: '';
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
     width: 45px;
     height: 1px;
     background-color: var(--color-white);
 }
 
 .widget ul, .widget ol {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
@@ -116,13 +116,13 @@
 }
 
 .widget .wp-block-page-list li {
-  border-bottom: 0px;
-  padding: 0px;
+  border-bottom: 0;
+  padding: 0;
 }
 
 .widget .wp-block-page-list li a {
   border-bottom: 1px solid rgba(174, 182, 194, 0.15);
-  padding: 12px 0px;
+  padding: 12px 0;
   width: 100%;
   display: block;
 }
@@ -144,7 +144,7 @@
 /*-- Search --*/
 .widget_search {
   text-align: left;
-  padding: 0px;
+  padding: 0;
   box-shadow: none;
 }
 
@@ -159,7 +159,7 @@
 .widget_search .wp-block-search .wp-block-search__input {
   padding: 5px 30px;
   height: 52px;
-  border-radius: 0px;
+  border-radius: 0;
   background: var(--color-dark-seven);
   color: var(--color-white);
   overflow: hidden;
@@ -174,7 +174,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  border: 0px;
+  border: 0;
   font-size: 16px;
   text-align: center;
   background: transparent;
@@ -182,8 +182,8 @@
   width: 52px;
   height: 52px;
   line-height: 48px;
-  border-radius: 0px;
-  padding: 0px;
+  border-radius: 0;
+  padding: 0;
   cursor: pointer;
 }
 
@@ -218,7 +218,7 @@
 }
 
 .sidebar_author .author_social ul {
-  margin: 0px;
+  margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
@@ -227,8 +227,8 @@
 .sidebar_author .author_social ul li {
   list-style-type: none;
   width: auto;
-  padding: 0px;
-  border-width: 0px;
+  padding: 0;
+  border-width: 0;
 }
 
 .sidebar_author .author_social ul li:not(:last-child) {
@@ -257,14 +257,14 @@
 ul.wp-block-latest-posts li {
   display: flex;
   align-items: center;
-  padding: 11px 0px;
+  padding: 11px 0;
   border-bottom: 1px solid var(--color-dark-seven);
 }
 
 
 ul.wp-block-latest-posts li .latest-posts-image {
   width: 85px;
-  border-radius: 0px;
+  border-radius: 0;
   flex-shrink: 0;
   margin-right: 20px;
 }
@@ -298,7 +298,7 @@ ul.wp-block-latest-posts li h6 {
 
 /* Archive */
 ul.wp-block-archive li {
-  padding: 5px 0px;
+  padding: 5px 0;
 }
 
 ul.wp-block-archive li a {
@@ -326,8 +326,8 @@ ul.wp-block-categories li {
   font-weight: var(--fw-light);
   line-height: 14px; /* 116.667% */
   letter-spacing: 0.6px;
-  border-width: 0px;
-  padding: 13px 0px;
+  border-width: 0;
+  padding: 13px 0;
   transition: var(--transition-base);
 }
 ul.wp-block-categories li a {  
@@ -341,7 +341,7 @@ ul.wp-block-categories li a:hover {
 
 /*-- Tag Cloud --*/
 .wp-block-tag{
-  margin: 0px;
+  margin: 0;
 }
 .wp-block-tag a {
   position: relative;
@@ -353,7 +353,7 @@ ul.wp-block-categories li a:hover {
   text-decoration-line: underline;
   text-underline-offset: 5px;
   padding: 2px 8px;
-  margin: 0px 0px 5px 0px;
+  margin: 0 0 5px 0;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
 }
@@ -375,12 +375,12 @@ ul.wp-block-categories li a:hover {
   color: var(--color-white);
   font-weight: var(--fw-light);
   line-height: 24px; /* 171.429% */
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .sidebar .form-check .form-check-input {
   float: none;
-  margin: 0px 7px 0px 0px;
+  margin: 0 7px 0 0;
   width: 12px;
   height: 12px;
   border: 1px solid var(--color-dark-seven);;

@@ -33,7 +33,7 @@
   
 .footer ul {
     padding: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     list-style-type: none;
 }
 
@@ -81,9 +81,9 @@
 .footer .footer-nav li a {
     position: relative;
     display: inline-flex;
-    padding-left: 0px;
+    padding-left: 0;
     text-decoration: none;
-    padding-left: 0px;
+    padding-left: 0;
     color: var(--color-two-fixed);
     font-family: var(--font-family-base);
     font-size: 16px;
@@ -114,7 +114,7 @@
 /* Footer Bottom Part  */
 .footer .footer-bottom {
     border-top: 1px solid rgba(var(--color-white-fixed-rgb), 0.1);
-    padding: 27px 0px;
+    padding: 27px 0;
 }
 .footer .footer-bottom .footer-bottom-inner{
     display: flex;
@@ -159,7 +159,7 @@
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    border-width: 0px 0px 0px 1px;
+    border-width: 0 0 0 1px;
     border-color: var(--color-dark-seven);
     background-color: transparent;
     color: var(--color-two);
@@ -201,7 +201,7 @@
     text-align: center;
     line-height: 54px;
     border-radius: 4px;
-    box-shadow: 0px 0px 3px var(--color-one);
+    box-shadow: 0 0 3px var(--color-one);
 }
 
 .wptb-newsletter-box {
@@ -227,25 +227,25 @@
 .wptb-newsletter-box::before {
     left: 0;
     top: 0;
-    border-width: 1px 0px 0px 1px;
+    border-width: 1px 0 0 1px;
 }
 
 .wptb-newsletter-box::after {
     right: 0;
     bottom: 0;
-    border-width: 0px 1px 1px 0px;
+    border-width: 0 1px 1px 0;
 }
 
 .wptb-newsletter-box .wptb-newsletter-box--inner::before {
     left: 0;
     bottom: 0;
-    border-width: 0px 0px 1px 1px;
+    border-width: 0 0 1px 1px;
 }
 
 .wptb-newsletter-box .wptb-newsletter-box--inner::after {
     top: 0;
     right: 0;
-    border-width: 1px 1px 0px 0px;
+    border-width: 1px 1px 0 0;
 }
 
 .footer-widget-with-border {

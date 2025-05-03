@@ -52,7 +52,7 @@
 }
 
 .header .header-top--inner {
-  padding: 5px 0px;
+  padding: 5px 0;
 }
 
 .header .header_right_part .wptb-element + .wptb-element {
@@ -74,8 +74,8 @@
 
 .header .social-box ul{
 	position:relative;
-	margin-bottom: 0px;
-	padding: 0px;
+	margin-bottom: 0;
+	padding: 0;
 }
 
 .header .social-box ul li{
@@ -101,8 +101,8 @@
 
 .header .info-list{
 	position:relative;
-	margin-bottom: 0px;
-  padding: 0px;
+	margin-bottom: 0;
+  padding: 0;
 }
 
 .header .info-list li{
@@ -143,7 +143,7 @@
 }
 
 .header .button-box .btn {
-  border-radius: 0px;
+  border-radius: 0;
   padding: 15px 30px;
   font-size: 18px;
   font-weight: var(--fw-light);
@@ -151,8 +151,8 @@
 
 /* Top Bar End */
 .header .mainnav ul.main-menu {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .header .mainnav ul.main-menu li {
@@ -182,7 +182,7 @@
   text-align: center;
   color: rgba(var(--color-white-rgb), 0.7);
   letter-spacing: 1px;
-  padding: 25px 0px;
+  padding: 25px 0;
   transition: var(--transition-base);
 }
 
@@ -194,7 +194,7 @@
 .header .mainnav ul.main-menu li:hover > ul {
   opacity: 1;
   visibility: visible;
-  transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0, 0);
 }
 
 .header .mainnav ul.main-menu > li.current > a::before, .header .mainnav ul.main-menu > li.active > a::before, .header .mainnav ul.main-menu > li > a::before {
@@ -223,16 +223,16 @@
   opacity: 0;
   visibility: hidden;
   min-width: 240px;
-  margin: 0px 0px;
+  margin: 0 0;
   padding: 15px 25px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   z-index: 5;
   transition: var(--transition-base);
-  transform: translate3d(15px, 0px, 0px);
+  transform: translate3d(15px, 0, 0);
   background: var(--color-black);
-  box-shadow: 0px 0px 40px 0px rgba(39, 61, 113, 0.1);
+  box-shadow: 0 0 40px 0 rgba(39, 61, 113, 0.1);
   max-height: calc(100vh - 100px);
 }
 
@@ -241,7 +241,7 @@
 }
 
 .header .mainnav ul.main-menu li ul::-webkit-scrollbar {
-  width: 0px;
+  width: 0;
   background: transparent;
 }
 
@@ -250,7 +250,7 @@
 }
 
 .header .mainnav ul.main-menu li ul li a {
-  padding:  10px 0px;
+  padding:  10px 0;
   width: 100%;
   text-align: left;
   color: rgba(var(--color-white-rgb), 0.6);
@@ -279,7 +279,7 @@
 .header .mainnav ul.main-menu li ul ul {
   left: calc(100% + 25px);
   top: -15px;
-  border-top: 0px solid var(--color-one);
+  border-top: 0 solid var(--color-one);
 }
 
 .header .mainnav ul.main-menu li ul ul ul ul {
@@ -293,7 +293,7 @@
   left: auto;
   right: calc(100% + 9px);
   top: 50%;
-  width: 0px;
+  width: 0;
   height: 1px;
   background-color: var(--color-one);
   transition: var(--transition-base);
@@ -327,7 +327,7 @@
 /* Header Search */
 .header .header_search .search_form {
   position: relative;
-  border: 0px solid transparent;
+  border: 0 solid transparent;
   transition: all 0.5s ease;
 }
 
@@ -367,7 +367,7 @@
   position: absolute;
   top: 0;
   left: 20px;
-  border: 0px;
+  border: 0;
   background: transparent;
   padding: 0;
 }
@@ -479,7 +479,7 @@
   align-items: center;
   justify-content: end;
   width: 100%;
-  padding: 0px;
+  padding: 0;
   background-color: transparent;
   border: none;
   margin-bottom: 100px;
@@ -491,7 +491,7 @@
 }
 
 .aside_info_wrapper::-webkit-scrollbar {
-  width: 0px;
+  width: 0;
   background: transparent;
 }
 
@@ -634,7 +634,7 @@
 }
 
 .mr_menu::-webkit-scrollbar {
-  width: 0px;
+  width: 0;
   background: transparent;
 }
 
@@ -643,11 +643,11 @@
   top: 15px;
   right: 15px;
   background: transparent;
-  padding: 0px;
+  padding: 0;
   color: var(--color-white);
   font-size: 24px;
-  border: 0px solid var(--color-one);
-  border-radius: 0px;
+  border: 0 solid var(--color-one);
+  border-radius: 0;
   transition: all 0.5s ease;
 }
 
@@ -658,7 +658,7 @@
 .mr_menu .logo {
   position: relative;
   text-align: center;
-  margin: 16px 0px;
+  margin: 16px 0;
 }
 
 .mr_menu .logo_left_menu a img {
@@ -667,8 +667,8 @@
 }
 
 .mr_menu ul.main-menu {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   border-top: 1px solid rgba(var(--color-dark-one-rgb), 0.1);
 }
 
@@ -696,7 +696,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 16px 0px;
+  padding: 16px 0;
   border-bottom: 1px solid rgba(var(--color-dark-seven-rgb), 0.3);
   color: rgba(var(--color-white-rgb), 0.7);
 }
@@ -791,10 +791,10 @@
   overflow: hidden;
   min-width: auto;
   width: 100%;
-  margin: 0px 0px;
+  margin: 0 0;
   padding-left: 10px;
   z-index: 5;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .mr_menu h6 {
@@ -908,7 +908,7 @@ body.overlay_menu_active .overlay_menu .overlay_navmenu {
   right: 38px;
   z-index: 1;
   background: transparent;
-  padding: 0px;
+  padding: 0;
   color: var(--color-two);
   font-size: 20px;
   border: 1px solid var(--color-two);
@@ -924,8 +924,8 @@ body.overlay_menu_active .overlay_menu .overlay_navmenu {
 }
 
 .overlay_menu ul.main-menu {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   border-top: 1px solid rgba(var(--color-dark-one-rgb), 0.1);
 }
 
@@ -947,15 +947,15 @@ body.overlay_menu_active .overlay_menu .overlay_navmenu {
   font-weight: var(--fw-semibold);
   line-height: 50px;
   text-transform: capitalize;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-decoration: none;
   text-align: center;
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 14px 0px;
+  padding: 14px 0;
   color: rgba(var(--color-white-rgb), 0.6);
-  border-bottom: 0px solid rgba(var(--color-dark-seven-rgb), 0.3);
+  border-bottom: 0 solid rgba(var(--color-dark-seven-rgb), 0.3);
 }
 
 .overlay_menu ul.main-menu li ul li a {
@@ -1024,10 +1024,10 @@ body.overlay_menu_active .overlay_menu .overlay_navmenu {
   overflow: hidden;
   min-width: auto;
   width: 100%;
-  margin: 0px 0px;
-  padding-left: 0px;
+  margin: 0 0;
+  padding-left: 0;
   z-index: 5;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .wptb-overlay-contact {
@@ -1099,7 +1099,7 @@ body.overlay_menu_active .wptb-overlay-contact {
 }
 
 .header.sticky .mainnav ul.main-menu > li > a {
-  padding: 20px 0px;
+  padding: 20px 0;
 }
 
 .header.top-up {
@@ -1178,13 +1178,13 @@ body.overlay_menu_active .wptb-overlay-contact {
     padding-right: 15px;
   }
   body.left_menu {
-    padding-left: 0px;
+    padding-left: 0;
   }
   body.left_menu .mr_menu {
     left: -300px;
   }
   body.left_menu.mr_menu_active .mr_menu {
-    left: 0px;
+    left: 0;
   }
 
   

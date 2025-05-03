@@ -44,7 +44,7 @@
 @media screen and (max-width: 991px) {
     .section, section,
     .wptb-about-two {
-        padding: 90px 0px;
+        padding: 90px 0;
     }
 
     .h1, h1{
@@ -131,7 +131,7 @@
     }
 
     .portfolio-filters-content .filters-button-group .button {
-        padding: 0px 20px 35px 20px;
+        padding: 0 20px 35px 20px;
     }
 
     .wptb-counter1 .wptb-item--value {
@@ -186,7 +186,7 @@
     }
 
     .wptb-service-one {
-        padding-bottom: 0px;
+        padding-bottom: 0;
     }
 
     .wptb-appointment-form-one .wptb-form--wrapper {
@@ -215,7 +215,7 @@
     }
 
     .portfolio-filters-content .filters-button-group .button {
-        padding: 0px 10px 15px 10px;
+        padding: 0 10px 15px 10px;
         margin-bottom: 10px;
         font-size: 12px;
         font-weight: var(--fw-normal);
@@ -227,8 +227,8 @@
         padding: 20px;
     }
     .wptb-slider:not(.style11) {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
     
     .wptb-slider:not(.style11) .wptb-left-pane,
@@ -237,25 +237,25 @@
     }
     
     .wptb-slider.style7 {
-        padding: 0px 0px;
+        padding: 0 0;
     }
     
     .wptb-slider.style8 {
-        padding: 30px 0px;
+        padding: 30px 0;
     }
     
     .wptb-slider.style7 .wptb-swiper-slider-seven .wptb-slider--item{
-        padding: 0px;
+        padding: 0;
         height: 100vh;
     }
     
     .wptb-slider.style8 .wptb-slider--item {
-        padding: 0px;
+        padding: 0;
         height: calc(100vh - 215px);
     }
     
     .wptb-slider.style7 .wptb-slider--image {
-        border-radius: 0px;
+        border-radius: 0;
     }
     
     .wptb-slider.style8 .wptb-slider--image {
@@ -319,15 +319,15 @@
     }
     
     .wptb-agency-experience .wptb-heading .wptb-item--description {
-        padding-right: 0px;
+        padding-right: 0;
     }
 
 }
 
 @media screen and (max-width: 450px) {
     .wptb-contact-page-wrapper {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .wptb-credential #countdown ul {
@@ -340,6 +340,6 @@
     
     .wptb-credential #countdown ul li span {
         font-size: 36px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 }

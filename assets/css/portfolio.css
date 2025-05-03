@@ -161,105 +161,105 @@
 }
 
 .gutter-0 {
-  margin: 0px 0px;
+  margin: 0 0;
 }
 .gutter-0 .grid-item {
-  padding: 0px;
+  padding: 0;
 }
 
 .gutter-5 {
-  margin: 0px -5px;
+  margin: 0 -5px;
 }
 .gutter-5 .grid-item {
   padding: 5px;
 }
 
 .gutter-10 {
-  margin: 0px -10px;
+  margin: 0 -10px;
 }
 .gutter-10 .grid-item {
   padding: 10px;
 }
 
 .gutter-15 {
-  margin: 0px -15px;
+  margin: 0 -15px;
 }
 .gutter-15 .grid-item {
   padding: 15px;
 }
 
 .gutter-20 {
-  margin: 0px -20px;
+  margin: 0 -20px;
 }
 .gutter-20 .grid-item {
   padding: 20px;
 }
 
 .gutter-25 {
-  margin: 0px -25px;
+  margin: 0 -25px;
 }
 .gutter-25 .grid-item {
   padding: 25px;
 }
 
 .gutter-30 {
-  margin: 0px -30px;
+  margin: 0 -30px;
 }
 .gutter-30 .grid-item {
   padding: 30px;
 }
 
 .gutter-35 {
-  margin: 0px -35px;
+  margin: 0 -35px;
 }
 .gutter-35 .grid-item {
   padding: 35px;
 }
 
 .gutter-40 {
-  margin: 0px -40px;
+  margin: 0 -40px;
 }
 .gutter-40 .grid-item {
   padding: 40px;
 }
 
 .gutter-45 {
-  margin: 0px -45px;
+  margin: 0 -45px;
 }
 .gutter-45 .grid-item {
   padding: 45px;
 }
 
 .gutter-50 {
-  margin: 0px -50px;
+  margin: 0 -50px;
 }
 .gutter-50 .grid-item {
   padding: 50px;
 }
 
 .gutter-55 {
-  margin: 0px -55px;
+  margin: 0 -55px;
 }
 .gutter-55 .grid-item {
   padding: 55px;
 }
 
 .gutter-60 {
-  margin: 0px -60px;
+  margin: 0 -60px;
 }
 .gutter-60 .grid-item {
   padding: 60px;
 }
 
 .gutter-90 {
-  margin: 0px -90px;
+  margin: 0 -90px;
 }
 .gutter-90 .grid-item {
   padding: 90px;
 }
 
 .gutter-100 {
-  margin: 0px -100px;
+  margin: 0 -100px;
 }
 .gutter-100 .grid-item {
   padding: 50px 100px;
@@ -267,49 +267,49 @@
 
 @media screen and (max-width: 1199px) {
   .gutter-40 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-40 .grid-item {
     padding: 30px;
   }
   
   .gutter-45 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-45 .grid-item {
     padding: 30px;
   }
   
   .gutter-50 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-50 .grid-item {
     padding: 30px;
   }
   
   .gutter-55 {
-    margin: 0px -45px;
+    margin: 0 -45px;
   }
   .gutter-55 .grid-item {
     padding: 45px;
   }
   
   .gutter-60 {
-    margin: 0px -45px;
+    margin: 0 -45px;
   }
   .gutter-60 .grid-item {
     padding: 45px;
   }
   
   .gutter-90 {
-    margin: 0px -70px;
+    margin: 0 -70px;
   }
   .gutter-90 .grid-item {
     padding: 70px;
   }
   
   .gutter-100 {
-    margin: 0px -70px;
+    margin: 0 -70px;
   }
   .gutter-100 .grid-item {
     padding: 50px 70px;
@@ -318,49 +318,49 @@
 
 @media screen and (max-width: 991px) {
   .gutter-40 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-40 .grid-item {
     padding: 30px;
   }
   
   .gutter-45 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-45 .grid-item {
     padding: 30px;
   }
   
   .gutter-50 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-50 .grid-item {
     padding: 30px;
   }
   
   .gutter-55 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-55 .grid-item {
     padding: 30px;
   }
   
   .gutter-60 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-60 .grid-item {
     padding: 30px;
   }
   
   .gutter-90 {
-    margin: 0px -50px;
+    margin: 0 -50px;
   }
   .gutter-90 .grid-item {
     padding: 50px;
   }
   
   .gutter-100 {
-    margin: 0px -50px;
+    margin: 0 -50px;
   }
   .gutter-100 .grid-item {
     padding: 50px 50px;
@@ -369,49 +369,49 @@
 
 @media screen and (max-width: 767px) {
   .gutter-40 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-40 .grid-item {
     padding: 30px;
   }
   
   .gutter-45 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-45 .grid-item {
     padding: 30px;
   }
   
   .gutter-50 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-50 .grid-item {
     padding: 30px;
   }
   
   .gutter-55 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-55 .grid-item {
     padding: 30px;
   }
   
   .gutter-60 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-60 .grid-item {
     padding: 30px;
   }
   
   .gutter-90 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-90 .grid-item {
     padding: 30px;
   }
   
   .gutter-100 {
-    margin: 0px -30px;
+    margin: 0 -30px;
   }
   .gutter-100 .grid-item {
     padding: 30px 30px;
@@ -421,10 +421,10 @@
 
 .grid-item.hidden {
   visibility: hidden;
-  width: 0px;
-  height: 0px;
-  margin: 0px;
-  padding: 0px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*-------- Filter Button ---------*/
@@ -446,17 +446,17 @@
 .portfolio-filters-content .filters-button-group .button {
   position: relative;
   background: transparent;
-  border: 0px;
+  border: 0;
   color: var(--color-white);
   text-align: center;
   font-size: 15px;
   font-style: normal;
   font-weight: var(--fw-medium);
   line-height: 21px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-transform: uppercase;
   border-bottom: 2px solid transparent;
-  padding: 0px 40px 35px 40px;
+  padding: 0 40px 35px 40px;
   margin-bottom: -2px;
   cursor: pointer;
   outline: none;
@@ -468,8 +468,8 @@
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   border-width: 8px;
   border-style: solid;
   border-color: var(--color-one) transparent transparent transparent;
@@ -537,7 +537,7 @@
     position: relative;
     font-size: 24px;
     line-height: 30px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     transition: var(--transition-base);
 }
 
@@ -545,8 +545,8 @@
     color: var(--color-white);
     font-size: 13px;
     font-weight: var(--fw-light);
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* .grid-item .wptb-item--holder .wptb-item--divider {
@@ -573,7 +573,7 @@
   align-items: center;
   justify-content: center;
   padding: 50px;
-  margin-top: 0px;
+  margin-top: 0;
   text-align: center;
   background: transparent;
   transition: var(--transition-base);
@@ -616,7 +616,7 @@
   align-items: center;
   justify-content: center;
   padding: 50px;
-  margin-top: 0px;
+  margin-top: 0;
   text-align: center;
   background: rgba(var(--color-black-rgb), 0.5);
 }
@@ -636,7 +636,7 @@
   align-items: end;
   justify-content: start;
   padding: 40px;
-  margin-top: 0px;
+  margin-top: 0;
   text-align: left;
   background: var(--gradient-one-180);
   transition: var(--transition-base);
@@ -711,7 +711,7 @@
   align-items: end;
   justify-content: start;
   padding: 40px;
-  margin-top: 0px;
+  margin-top: 0;
   text-align: left;
   /* background: var(--gradient-one-180); */
   transition: all 1.5s ease-in-out;

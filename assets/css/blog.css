@@ -9,7 +9,7 @@
     top: 300px;
 }
 .blog-details .post-header {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 25px;
 }
 .blog-details .post-header .post-title {
@@ -117,12 +117,12 @@
     line-height: 40px;
     text-align: center;
     margin-right: 25px;
-    box-shadow: 0px 10px 20px rgba(137, 151, 186, 0.25);
+    box-shadow: 0 10px 20px rgba(137, 151, 186, 0.25);
 	flex-shrink: 0;
     transition: all 0.5s ease-in-out;
 }
 .blog-details .process-step:hover .serial {
-    box-shadow: 0px 0px 20px rgba(137, 151, 186, 0.25);
+    box-shadow: 0 0 20px rgba(137, 151, 186, 0.25);
 }
 .blog-details .process-step h5 {
     font-size: 24px;
@@ -144,7 +144,7 @@
 }
 
 .blog-details .blocks-gallery-grid .blocks-gallery-item {
-    margin: 0 30px 0px 0;
+    margin: 0 30px 0 0;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -154,7 +154,7 @@
 }
 
 .blog-details .blocks-gallery-grid .blocks-gallery-item figure {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     height: 100%;
     display: flex;
     align-items: flex-end;
@@ -185,7 +185,7 @@
     display: flex;
     align-items: center;
     flex-flow: wrap;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-left: 0;
 }
 
@@ -231,7 +231,7 @@
 }
 
 /* .blog-details .post-share ul.share-list li:last-child a {
-    margin-right: 0px;
+    margin-right: 0;
 }
 .blog-details .post-share ul.share-list li.facebook a {
     background: #004da9;
@@ -263,8 +263,8 @@
     display: flex;
     border-top: 1px dotted var(--color-light);
     border-bottom: 1px dotted var(--color-light);
-    padding: 30px 0px;
-    margin: 0px 0px 40px 0px;
+    padding: 30px 0;
+    margin: 0 0 40px 0;
   }
   
   .blog-details .author-div .author {
@@ -296,7 +296,7 @@
   .blog-details .author-div .social-media ul.social-list {
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-left: 0;
   }
   
@@ -307,23 +307,23 @@
   
   .blog-details .author-div .social-media ul.social-list li a {
     font-size: 15px;
-    padding: 0px 14px;
+    padding: 0 14px;
     
   }
   
   .blog-details .author-div .social-media ul.social-list li:first-child a {
-    padding-left: 0px;
+    padding-left: 0;
   }
   
   .blog-details .author-div .social-media ul.social-list li:last-child a {
-    padding-right: 0px;
+    padding-right: 0;
   }
 
 /* Vdeo Section */
 .video-post {
     display: inline-block;
     width: 100%;
-    margin: 35px 0px;
+    margin: 35px 0;
 }
 
 .video-post .ytube-video {
@@ -367,25 +367,25 @@
 	height: 100%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 0px 20px rgba(255, 255, 255, 0.4);
-    box-shadow: 0px 0px 0px 20px rgba(255, 255, 255, 0.4);
+    -webkit-box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.4);
     animation: ripple3 2s ease-in-out infinite;
 }
 .ytplay-btn:after {
-    -webkit-box-shadow: 0px 0px 0px 40px rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 0px 0px 40px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.3);
     animation: ripple4 2s ease-in-out infinite;
 }
 
 @keyframes ripple3 {
-    0% {box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.4);}
-    50% {box-shadow: 0px 0px 0px 20px rgba(255, 255, 255, 0);}
-    100% {box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0);}
+    0% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);}
+    50% {box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);}
+    100% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}
 }
 @keyframes ripple4 {
-    0% {box-shadow: 0px 0px 0px 20px rgba(255, 255, 255, 0.3);}
-    50% {box-shadow: 0px 0px 0px 40px rgba(255, 255, 255, 0);}
-    100% {box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0);}
+    0% {box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.3);}
+    50% {box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);}
+    100% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}
 }
 
 .video-post .ytube-video.play #ytvideo {
@@ -406,7 +406,7 @@
 }
 
 .blog-details .video-post .ytube-video .post_header .post_title {
-    margin: 0px 0px;
+    margin: 0 0;
     
 }
 
@@ -482,7 +482,7 @@
 }
 
 .blog-details .video-post .local_video .post_header .post_title {
-    margin: 0px 0px;
+    margin: 0 0;
     
 }
 
@@ -509,8 +509,8 @@ iframe, object, embed, iframe, object, iframe, video {
 .comments-area .comments-title::before {
     position: absolute;
     content: '';
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
     width: 40px;
     height: 1px;
     background-color: var(--color-white);
@@ -518,7 +518,7 @@ iframe, object, embed, iframe, object, iframe, video {
 .comments-area ul {
     list-style-type: none;
     padding-left: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .comments-area ul ul {
@@ -553,7 +553,7 @@ iframe, object, embed, iframe, object, iframe, video {
     font-weight: var(--fw-medium);
     line-height: 30px; /* 166.667% */
     text-transform: capitalize;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .comments-area ul.comment-list .commenter-block .comment-content .comment-author-comment {
@@ -587,13 +587,13 @@ iframe, object, embed, iframe, object, iframe, video {
 
 /* Comments Pagination */
 .comments-area .comments-pagination {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     list-style-type: none;
     align-items: center;
     display: flex;
     padding-left: 0;
     list-style: none;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 .comments-area .comments-pagination a, .comments-area .comments-pagination span {
@@ -630,8 +630,8 @@ iframe, object, embed, iframe, object, iframe, video {
 .comment-respond .comment-reply-title::before {
     position: absolute;
     content: '';
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
     width: 30px;
     height: 1px;
     background-color: var(--color-white);
@@ -690,7 +690,7 @@ iframe, object, embed, iframe, object, iframe, video {
         align-items: baseline;
     }
     .comments-area ul.comment-list .commenter-block .comment-content .comment-date {
-        margin-left: 0px;
+        margin-left: 0;
     }
 }
 

@@ -106,7 +106,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 190px 0px 190px 0px;
+    padding: 190px 0 190px 0;
     color: var(--color-white);
     overflow: hidden;
 }
@@ -179,14 +179,14 @@
 @keyframes floating1 {
     0% {
         left: -100px;
-        top: 0px;
+        top: 0;
     }
     25% {
-        left: 0px;
-        top: 0px;
+        left: 0;
+        top: 0;
     }
     50% {
-        left: 0px;
+        left: 0;
         top: -50px;
     }
     75% {
@@ -195,21 +195,21 @@
     }
     100% {
         left: -100px;
-        top: 0px;
+        top: 0;
     }
 }
 
 @keyframes floating2 {
     0% {
         left: 100px;
-        top: 0px;
+        top: 0;
     }
     25% {
-        left: 0px;
-        top: 0px;
+        left: 0;
+        top: 0;
     }
     50% {
-        left: 0px;
+        left: 0;
         top: -50px;
     }
     75% {
@@ -218,7 +218,7 @@
     }
     100% {
         left: -200px;
-        top: 0px;
+        top: 0;
     }
 }
 
@@ -226,16 +226,16 @@
     0% {
         left: auto;
         right: -100px;
-        top: 0px;
+        top: 0;
     }
     25% {
         left: auto;
-        right: 0px;
-        top: 0px;
+        right: 0;
+        top: 0;
     }
     50% {
         left: auto;
-        right: 0px;
+        right: 0;
         top: -50px;
     }
     75% {
@@ -246,7 +246,7 @@
     100% {
         left: auto;
         right: -100px;
-        top: 0px;
+        top: 0;
     }
 }
 
@@ -254,16 +254,16 @@
     0% {
         left: auto;
         right: 100px;
-        top: 0px;
+        top: 0;
     }
     25% {
         left: auto;
-        right: 0px;
-        top: 0px;
+        right: 0;
+        top: 0;
     }
     50% {
         left: auto;
-        right: 0px;
+        right: 0;
         top: -50px;
     }
     75% {
@@ -274,7 +274,7 @@
     100% {
         left: auto;
         right: -200px;
-        top: 0px;
+        top: 0;
     }
 }
 
@@ -294,7 +294,7 @@
     position: absolute;
     top: 55px;
     left: 100px;
-    padding: 15px 0px;
+    padding: 15px 0;
     animation: rotate1 1.5s linear infinite alternate-reverse;
 }
 
@@ -303,7 +303,7 @@
     font-size: var(--fs-24);
     line-height: var(--fs-26);
     color: #112B50;
-    margin: 0px;
+    margin: 0;
 }
 @keyframes rotate1 {
     0% {
@@ -327,7 +327,7 @@
 }
 .previews-section figure {
     position: relative;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     text-align: center;
     transform-style: preserve-3d;
 }
@@ -371,9 +371,9 @@
     font-size: var(--fs-18);
     font-weight: var(--fw-semibold);
     text-transform: capitalize;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     padding: 27px 55px;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 /* Subpages Section */
@@ -407,7 +407,7 @@
 
 /* Marquee Gallery */
 .moving-gallery {
-    padding: 50px 0px;
+    padding: 50px 0;
 }
 .marquee-animation {    
     overflow: hidden;
@@ -478,7 +478,7 @@
 
 .fun_content p {
     color: var(--color-white);
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 
@@ -493,7 +493,7 @@
 
 .feature-icon {
     width: 60px;
-    margin: 0px auto 10px;
+    margin: 0 auto 10px;
     transition: all 0.8s ease-in-out;
 }
 
@@ -527,7 +527,7 @@
     font-weight: var(--fw-semibold);
     line-height: var(--fs-38);
     color: var(--color-white);
-    margin: 25px 0px;
+    margin: 25px 0;
 }
 
 /* Portfolio Section */
@@ -545,7 +545,7 @@
     margin-bottom: -280px;
 }
 .shop-section .wptb-heading {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .shop-section .wptb-heading .wptb-item--title {
     font-size: var(--fs-50);
