@@ -80,7 +80,7 @@
     height: 170px;
     border-radius: 100%;
     text-align: center;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: var(--fs-60);
     font-weight: var(--fw-semibold);
     display: flex;
@@ -95,7 +95,7 @@
     animation: rotate1 1.5s linear infinite alternate-reverse;
 }
 .theme-style--landing .wptb-hero .demo-counter p {
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: var(--fs-18);
     font-weight: var(--fw-semibold);
     line-height: var(--fs-28);
@@ -119,7 +119,7 @@
     z-index: 1;
 }
 .slider-content h6 {
-    font-family: var(--font-family-second);
+    font-family: var(--font-family-second), sans-serif;
     font-size: var(--fs-24);
     font-weight: var(--fw-medium);
     font-style: italic;
@@ -128,7 +128,7 @@
     margin-top: 12px;
 }
 .slider-content h2 {
-    font-family: 'saol_displayregular';
+    font-family: 'saol_displayregular', sans-serif;
     font-size: var(--fs-48);
     line-height: var(--fs-52);
     font-weight: var(--fw-normal);
@@ -506,7 +506,7 @@
 }
 
 .feature-box p {
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: var(--fs-20);
     font-weight: var(--fw-semibold);
     color: var(--color-black);
@@ -578,7 +578,7 @@
 
 /* Multiple Styles */
 .multiple_pages  .multiple_pages_inner h1 {
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: var(--fs-48);
     font-weight: var(--fw-normal);
     line-height: 80px;

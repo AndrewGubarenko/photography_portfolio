@@ -489,7 +489,7 @@
 
 .portfolio-filters-content .filters-button-group .button .filter-count {
   position: absolute;
-  top: 0rem;
+  top: 0;
   right: 0.5rem;
   font-size: 0.75rem;
   color: var(--color-white);

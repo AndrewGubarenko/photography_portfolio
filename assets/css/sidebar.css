@@ -389,7 +389,7 @@ ul.wp-block-categories li a:hover {
 }
 
 .sidebar .form-check .form-check-input:checked {
-  background-color: var(--colo-white);
+  background-color: var(--color-white);
   border-color: var(--color-dark-seven);
   box-shadow: none;
 }

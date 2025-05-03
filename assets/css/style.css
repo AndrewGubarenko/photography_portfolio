@@ -173,7 +173,7 @@
     margin-left: -60px;
 }
 .wptb-agency-experience .wptb-heading .wptb-item--title span {
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     -webkit-text-stroke-width: 1px;
     font-style: normal;
     font-weight: var(--fw-medium);
@@ -282,7 +282,7 @@
 }
 @media screen and (min-width: 992px) {
     .wptb-work-process-one--inner::before {
-        content: url('../img/line.png');
+        content: url('../img/background/bg-14-light.png');
         position: absolute;
         top: 25%;
         left: 50%;
@@ -604,7 +604,7 @@
 }
 .wptb-project-info1 .wptb-item--footer .wptb-footer--item h3 {
     color: var(--color-white-fixed);
-    font-family: var(--font-family-two);
+    font-family: var(--font-family-two), sans-serif;
     font-size: 32px;
     font-weight: var(--fw-light);
     line-height: 36px;
@@ -714,7 +714,7 @@
     transition: var(--transition-base);
 }
 .credential-form .form-control {
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     color: var(--color-white-fixed);
     background: rgba(var(--color-dark-four-rgb), 0.5);
     height: 63px;
@@ -775,7 +775,7 @@
 .wptb-credential #countdown ul li {
     position: relative;
     display: inline-block;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-style: normal;
     font-size: 13px;
     font-weight: var(--fw-light);
@@ -871,7 +871,7 @@
 /* Flatpickr */
 .flatpickr-time input.flatpickr-hour,
 .flatpickr-time input.flatpickr-minute, .flatpickr-time input.flatpickr-second {
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-weight: var(--fw-light);
     border-radius: 0;
     padding: 5px 10px;
@@ -936,7 +936,7 @@
     cursor: pointer;
     width: 81px;
     height: 81px;
-    border-radius: 1e3px;
+    border-radius: 13px;
     border: 5px solid var(--color-one);
     position: relative;
     overflow: hidden;
@@ -978,7 +978,7 @@
     background-color: var(--color-one);
     border-radius: 8.27px;
     text-align: center;
-    font-family: PT Serif;
+    font-family: PT, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: var(--fw-light);
@@ -1071,7 +1071,7 @@
     margin-top: 25px;
 }
 .wptb-single--image .wptb-team-ci-wrap .team-ci-content .team-ci-title {
-    font-family: "Quicksand", Sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 24px;
     font-weight: var(--fw-light);
     line-height: 40px;
@@ -1079,7 +1079,7 @@
 }
 
 .wptb-single--image .wptb-team-ci-wrap .team-ci-content .team-ci-desc {
-    font-family: "Quicksand", Sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 32px;
     font-weight: var(--fw-semibold);
     text-decoration: underline;
@@ -1185,7 +1185,6 @@
     display: inline-flex;
     align-items: center;
     position: relative;
-    position: relative;
 }
 .team-details-content .wptb-link li i {
     margin-right: 25px;
@@ -1251,7 +1250,7 @@
     letter-spacing: -0.24px;
 }
 .wptb-product-list .widget-title::before {
-    content: url(../img/more/divider.svg);
+    content: url('../img/background/6.jpg');
 }
 .wptb-product-list .widget-title::after {
     display: none;
@@ -1335,7 +1334,7 @@
 }
 .theme-style--gradient h1, .theme-style--gradient h2, .theme-style--gradient h3, .theme-style--gradient h4, .theme-style--gradient h5, .theme-style--gradient h6,
 .theme-style--gradient .h1, .theme-style--gradient .h2, .theme-style--gradient .h3, .theme-style--gradient .h4, .theme-style--gradient .h5, .theme-style--gradient .h6{
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), serif;
     font-weight: var(--fw-semibold);
 }
 .theme-style--gradient .footer {
@@ -1364,7 +1363,7 @@
     justify-content: center;
 }
 .theme-style--gradient .wptb-list1 .wptb--item .wptb-item--text {
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), serif;
     font-size: 18px;
     font-weight: var(--fw-semibold);
     line-height: 28px;

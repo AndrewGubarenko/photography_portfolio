@@ -266,7 +266,7 @@
 
 
 /* Border CSS */
-.theme-style--light .social-box.style-oval ul li a:hover
+.theme-style--light .social-box.style-oval ul li a:hover,
 .theme-style--light .wptb-slider.style1 .social-box.style-oval ul li a:hover {
     border-color: var(--color-one);
 }

@@ -91,7 +91,7 @@
 }
 
 .header .social-box ul li:last-child{
-	margin-right:0px;
+	margin-right: 0;
 }
 
 .header .social-box ul li a:hover{
@@ -126,12 +126,12 @@
 
 .header .info-list li a .icon{
 	position:absolute;
-	left:0px;
+	left: 0;
 	color:var(--color-one);
 }
 
 .header .info-list li:last-child{
-	margin:0px;
+	margin: 0;
 }
 
 .header .info-list li a:hover{
@@ -268,7 +268,7 @@
 
 .header .mainnav ul.main-menu li ul li.menu-item-has-children > a:after {
   content: "\F285";
-  font-family: 'bootstrap-icons';
+  font-family: 'bootstrap-icons', sans-serif;
   speak: none;
   position: absolute;
   top: 50%;
@@ -305,7 +305,7 @@
 } */
 .header .mainnav ul.main-menu > li.menu-item-has-children > a::after {
   content: "\F282";
-  font-family: 'bootstrap-icons';
+  font-family: 'bootstrap-icons', sans-serif;
   speak: none;
   transition: var(--transition-base);
   display: inline-block;
@@ -363,7 +363,6 @@
   font-size: 16px;
   color: var(--color-one);
   font-weight: var(--fw-light);
-  background-color: initial;
   position: absolute;
   top: 0;
   left: 20px;
@@ -404,7 +403,7 @@
   color: var(--color-one);
 }
 
-.header .header_search .search_form :placeholder {
+.header .header_search .search_form ::placeholder {
   font-size: 16px;
   font-weight: var(--fw-light);
   font-style: normal;
@@ -513,7 +512,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  font-family: var(--font-family-two);
+  font-family: var(--font-family-two), sans-serif;
   font-size: 18px;
   font-style: italic;
   color: var(--color-white);
@@ -706,7 +705,7 @@
 }
 
 .mr_menu ul.main-menu li a::before {
-  font-family: 'bootstrap-icons';
+  font-family: 'bootstrap-icons', sans-serif;
   
   color: var(--color-one);
 }

@@ -38,7 +38,7 @@ Ready Components Stylesheet
 }
 
 .wptb-heading .wptb-item--title span {
-    font-family: var(--font-family-two);
+    font-family: var(--font-family-two), sans-serif;
     font-style: italic;
     font-weight: var(--fw-light);
     transition: var(--transition-base);
@@ -111,7 +111,7 @@ Ready Components Stylesheet
     display: inline-block;
     border-radius: 100px;
     padding: 6px 30px;
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: var(--fs-16);
     font-weight: var(--fw-normal);
     line-height: var(--fs-30);
@@ -131,7 +131,7 @@ Ready Components Stylesheet
     position: relative;
     z-index: 1;
     color: var(--color-white);
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: var(--fs-60);
     font-weight: var(--fw-semibold);
     line-height: var(--fs-74);
@@ -222,7 +222,7 @@ Ready Components Stylesheet
     z-index: -1;
 }
 .shadow-heading .wptb-item--title {
-    font-family: var(--font-family-two);
+    font-family: var(--font-family-two), sans-serif;
     font-size: 20vw;
     font-weight: var(--fw-normal);
     line-height: 20vw;
@@ -336,7 +336,7 @@ Ready Components Stylesheet
 
 .wptb-breadcrumb {
     color: var(--color-white);
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: 20px;
     font-weight: var(--fw-medium);
     line-height: 30px;
@@ -364,7 +364,7 @@ Ready Components Stylesheet
 
 .wptb-breadcrumb li a:after {
     content: "\F309";
-    font-family: 'bootstrap-icons';
+    font-family: 'bootstrap-icons', sans-serif;
     color: inherit;
     font-size: 22px;
     font-weight: var(--fw-light);
@@ -476,7 +476,7 @@ Ready Components Stylesheet
 }
 
 .wptb-swiper-navigation.style1 .wptb-swiper-arrow:after {
-    font-family: 'bootstrap-icons';
+    font-family: 'bootstrap-icons', sans-serif;
     font-size: 17px;
 }
 .wptb-swiper-navigation.style1 .swiper-button-prev:after {
@@ -513,7 +513,7 @@ Ready Components Stylesheet
 }
 
 .wptb-swiper-navigation.style2 .wptb-swiper-arrow:after {
-    font-family: 'bootstrap-icons';
+    font-family: 'bootstrap-icons', sans-serif;
     font-size: inherit;
 }
 .wptb-swiper-navigation.style2 .swiper-button-prev:after {
@@ -551,7 +551,7 @@ Ready Components Stylesheet
 }
 
 .wptb-swiper-navigation.style3 .wptb-swiper-arrow:after {
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: 13px;
     font-weight: var(--fw-semibold);
     text-transform: uppercase !important;
@@ -723,7 +723,7 @@ Ready Components Stylesheet
 .wptb-slider .logo {
     transform: rotate(-90deg);
     transform-origin: center;
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: 13px;
     font-weight: var(--fw-semibold);
     text-transform: uppercase;
@@ -1029,7 +1029,7 @@ Ready Components Stylesheet
 
 .wptb-slider.style2 .wptb-heading .wptb-item--subtitle {
     color: var(--color-white-fixed);
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: 20px;
     font-weight: var(--fw-semibold);
     line-height: 20px;
@@ -1405,7 +1405,7 @@ Ready Components Stylesheet
 }
 .wptb-slider.style7 .wptb-heading .wptb-item--title span {
     position: relative;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-style: normal;
     font-weight: var(--fw-medium);
     transform: none;
@@ -1436,7 +1436,7 @@ Ready Components Stylesheet
 }
 
 .wptb-slider.style7 .wptb-heading .wptb-item--subtitle {
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: 20px;
     font-weight: var(--fw-semibold);
     line-height: 20px;
@@ -1479,7 +1479,7 @@ Ready Components Stylesheet
 }
 .wptb-slider.style8 .wptb-heading .wptb-item--title span {
     position: relative;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-style: normal;
     font-weight: var(--fw-medium);
 }
@@ -1500,7 +1500,7 @@ Ready Components Stylesheet
 }
 
 .wptb-slider.style8 .wptb-heading .wptb-item--subtitle {
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: 20px;
     font-weight: var(--fw-semibold);
     line-height: 20px;
@@ -2046,7 +2046,7 @@ Ready Components Stylesheet
 }
 .wptb-slider.style17 .wptb-heading .wptb-item--subtitle {
     color: var(--color-white-fixed);
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: 20px;
     font-weight: var(--fw-semibold);
     line-height: 20px;
@@ -2547,7 +2547,7 @@ Ready Components Stylesheet
 }
 
 .wptb-icon-box1.style2 .wptb-item--description {
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: var(--fw-normal);
@@ -2942,7 +2942,7 @@ Ready Components Stylesheet
     transition: var(--transition-base);
 }
 .wptb-icon-box7 .wptb-item--count {
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: 48px;
     font-weight: var(--fw-semibold);
     line-height: normal;
@@ -3756,7 +3756,7 @@ Ready Components Stylesheet
 .wptb-client-review2 .wptb-item--inner .wptb-piechart .wrap-meta .wptb--rating-label {
     
     text-align: center;
-    font-family: PT Serif;
+    font-family: PT, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: var(--fw-light);
@@ -4388,7 +4388,7 @@ Ready Components Stylesheet
 }
 .wptb-blog-grid2 .wptb-item--inner .wptb-item--date {
     display: inline-block;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: var(--fw-semibold);
@@ -4624,7 +4624,7 @@ Ready Components Stylesheet
 
 .wptb-packages1 .wptb-item--tag {
     display: inline-block;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: var(--fw-medium);
@@ -4649,7 +4649,7 @@ Ready Components Stylesheet
 }
 .wptb-packages1 .wptb-item--inner .wptb-item--subtitle {
     color: var(--color-white);
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: var(--fw-semibold);
@@ -4768,7 +4768,7 @@ Ready Components Stylesheet
 }
 .wptb-packages2 .wptb-item--tag {
     display: inline-block;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: var(--fw-medium);
@@ -5143,7 +5143,7 @@ Ready Components Stylesheet
 }
 
 .wptb-testimonial2 .wptb-item--inner .wptb-item--designation {
-	font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 0;
@@ -5237,14 +5237,12 @@ Ready Components Stylesheet
 .wptb-item--button.wptb-video-btn--two a:after {
     content: "";
     position: absolute;
-    z-index: 0;
     left: 0;
     top: 0;
     display: block;
     width: 100%;
     height: 100%;
     background-color: rgba(var(--color-light-rgb),.3);
-    border-radius: 50%;
     animation: wptb_pulse_border 1500ms ease-out infinite;
     -webkit-animation: wptb_pulse_border 1500ms ease-out infinite;
     z-index: -2;
@@ -5264,7 +5262,7 @@ Ready Components Stylesheet
     background: var(--gradient-three);
 }
 .wptb-progressbar .wptb-progress--label {
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: 20px;
     line-height: 38px;
     font-weight: var(--fw-semibold);
@@ -5272,7 +5270,7 @@ Ready Components Stylesheet
     margin-bottom: 10px;
 }
 .wptb-progressbar .wptb-progress--value {
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: var(--fw-light);
@@ -5699,7 +5697,7 @@ svg.radial-progress {
 }
 
 .wptb-team-grid1 .wptb-item--inner .wptb-item--meta .wptb-item--title {
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: 30px;
     font-weight: var(--fw-medium);
     line-height: 40px;
@@ -5766,8 +5764,7 @@ svg.radial-progress {
 }
 
 .wptb-team-grid2 .wptb-item--inner .wptb-item--social {
-    display: inline-block;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: var(--fw-semibold);
@@ -6121,7 +6118,6 @@ svg.radial-progress {
     font-size: 14px;
     font-style: normal;
     font-weight: var(--fw-normal);
-    line-height: 1.57;
     background-color: #ffeeef;
     color: var(--color-one);
     position: absolute;
@@ -6217,8 +6213,8 @@ svg.radial-progress {
 }
 
 
-.text-outline {    
-    font-family: var(--font-family-three);
+.text-outline {
+    font-family: var(--font-family-three), sans-serif;
     -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: var(--color-white);
   -webkit-text-fill-color: transparent;
@@ -6424,7 +6420,7 @@ svg.radial-progress {
 }
 .wptb-features .wptb-item .wptb-item--features-holder::before {
     display: inline-block;
-    font-family: "bootstrap-icons";
+    font-family: "bootstrap-icons", sans-serif;
     content: ' \F144';
     transition: var(--transition-base);
 }
@@ -6603,7 +6599,7 @@ svg.radial-progress {
 }
 
 .social-box ul li:last-child{
-	margin-right:0px;
+	margin-right: 0;
 }
 
 .social-box ul li a:hover {

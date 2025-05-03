@@ -51,7 +51,6 @@
 
 .blog-details .highlight {
     font-size: 24px;
-    line-height: 34px;
 	line-height: 30px;
 	margin-bottom: 30px;
     letter-spacing: -0.5px;
@@ -670,7 +669,7 @@ iframe, object, embed, iframe, object, iframe, video {
 .comment-respond ::-moz-placeholder,
 .comment-respond :-ms-input-placeholder,
 .comment-respond :-moz-placeholder,
-.comment-respond :placeholder {
+.comment-respond ::placeholder {
     font-size: 0.875rem;
     font-weight: var(--fw-light);
     color: #999999;

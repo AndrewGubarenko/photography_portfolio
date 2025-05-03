@@ -83,7 +83,6 @@
     display: inline-flex;
     padding-left: 0;
     text-decoration: none;
-    padding-left: 0;
     color: var(--color-two-fixed);
     font-family: var(--font-family-base);
     font-size: 16px;

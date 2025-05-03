@@ -336,7 +336,7 @@ html {
 }
 body {
     position: relative;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: var(--fs-16);
     font-weight: var(--fw-light);
     line-height: var(--fs-28);
@@ -408,13 +408,13 @@ main,
 
 /* Font Family Set Class */
 .ff-base {
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
 }
 .ff-heading {
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
 }
 .ff-third {
-    font-family: var(--font-family-three);
+    font-family: var(--font-family-three), sans-serif;
 }
 
 /* Font Weight Set Class */
@@ -669,7 +669,7 @@ textarea,
     width: 100%;
     height: 57px;
     padding: 15px 20px;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: var(--fs-17);
     font-weight: var(--fw-light);
     line-height: normal;
@@ -765,7 +765,7 @@ input[type="submit"],
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: var(--fs-14); 
     font-weight: var(--fw-medium);
     line-height: var(--fs-21);
@@ -1072,7 +1072,7 @@ input[type="submit"]:hover {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: var(--fs-16); 
     font-weight: var(--fw-medium);
     line-height: var(--fs-28);
